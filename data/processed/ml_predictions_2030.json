@@ -1,0 +1,7047 @@
+{
+  "overview": {
+    "model": "Calibrated Multi-Variate Auto-Trend Regression with Aquifer Inertia Bounds",
+    "training_span": "2007\u20132021 (2,059 Observations)",
+    "forecast_horizons": [
+      2026,
+      2028,
+      2030,
+      2035
+    ],
+    "primary_focus": "Vision 2030 Groundwater Quality Assessment",
+    "district_summary_2030": {
+      "expected_mean_GWQI": 139.4,
+      "expected_mean_TDS": 1035.2,
+      "expected_mean_F": 0.72,
+      "expected_mean_NO3": 13.2,
+      "pct_critical_wells_2030": 17.4
+    }
+  },
+  "taluk_projections": {
+    "Madurai South": {
+      "taluk": "Madurai South",
+      "GWQI_current": 147.7,
+      "GWQI_2026": 151.7,
+      "GWQI_2030": 157.8,
+      "GWQI_delta_2030": 10.1,
+      "TDS_current": 1141.4,
+      "TDS_2026": 1168.5,
+      "TDS_2030": 1237.6,
+      "TDS_delta_2030": 96.2,
+      "F_current": 0.8,
+      "F_2026": 0.8,
+      "F_2030": 0.8,
+      "F_delta_2030": -0.0,
+      "NO2+NO3_current": 11.0,
+      "NO2+NO3_2026": 11.2,
+      "NO2+NO3_2030": 11.4,
+      "NO2+NO3_delta_2030": 0.4,
+      "EC_GEN_current": 1860.3,
+      "EC_GEN_2026": 1837.7,
+      "EC_GEN_2030": 1897.8,
+      "EC_GEN_delta_2030": 37.5,
+      "HAR_Total_current": 488.6,
+      "HAR_Total_2026": 497.3,
+      "HAR_Total_2030": 510.5,
+      "HAR_Total_delta_2030": 22.0,
+      "Action_Recommendation": "Priority: Urban Effluent Segregation, Septic Remediation & Stormwater Injection",
+      "Risk_Category_2030": "High Risk"
+    },
+    "Thirumangalam": {
+      "taluk": "Thirumangalam",
+      "GWQI_current": 162.7,
+      "GWQI_2026": 166.8,
+      "GWQI_2030": 168.6,
+      "GWQI_delta_2030": 5.9,
+      "TDS_current": 1260.0,
+      "TDS_2026": 1310.2,
+      "TDS_2030": 1349.1,
+      "TDS_delta_2030": 89.2,
+      "F_current": 0.7,
+      "F_2026": 0.7,
+      "F_2030": 0.7,
+      "F_delta_2030": -0.0,
+      "NO2+NO3_current": 19.9,
+      "NO2+NO3_2026": 21.7,
+      "NO2+NO3_2030": 20.1,
+      "NO2+NO3_delta_2030": 0.1,
+      "EC_GEN_current": 1987.9,
+      "EC_GEN_2026": 2044.5,
+      "EC_GEN_2030": 2062.2,
+      "EC_GEN_delta_2030": 74.3,
+      "HAR_Total_current": 531.7,
+      "HAR_Total_2026": 521.9,
+      "HAR_Total_2030": 514.0,
+      "HAR_Total_delta_2030": -17.8,
+      "Action_Recommendation": "High Priority: Artificial Recharge Check Dams along Gundar/Vaigai basin & Managed Aquifer Recharge (MAR)",
+      "Risk_Category_2030": "Critical Risk"
+    },
+    "Peraiyur": {
+      "taluk": "Peraiyur",
+      "GWQI_current": 129.1,
+      "GWQI_2026": 131.7,
+      "GWQI_2030": 138.7,
+      "GWQI_delta_2030": 9.6,
+      "TDS_current": 930.5,
+      "TDS_2026": 921.7,
+      "TDS_2030": 975.5,
+      "TDS_delta_2030": 45.0,
+      "F_current": 0.8,
+      "F_2026": 0.8,
+      "F_2030": 0.8,
+      "F_delta_2030": -0.0,
+      "NO2+NO3_current": 12.0,
+      "NO2+NO3_2026": 13.8,
+      "NO2+NO3_2030": 14.6,
+      "NO2+NO3_delta_2030": 2.5,
+      "EC_GEN_current": 1479.0,
+      "EC_GEN_2026": 1408.0,
+      "EC_GEN_2030": 1470.4,
+      "EC_GEN_delta_2030": -8.5,
+      "HAR_Total_current": 366.4,
+      "HAR_Total_2026": 363.6,
+      "HAR_Total_2030": 374.8,
+      "HAR_Total_delta_2030": 8.4,
+      "Action_Recommendation": "Moderate: Canal Water Conjunctive Use, Micro-Irrigation & Farm Pond Subsidies",
+      "Risk_Category_2030": "Moderate Risk"
+    },
+    "Madurai North": {
+      "taluk": "Madurai North",
+      "GWQI_current": 127.4,
+      "GWQI_2026": 124.7,
+      "GWQI_2030": 124.1,
+      "GWQI_delta_2030": -3.3,
+      "TDS_current": 943.3,
+      "TDS_2026": 935.1,
+      "TDS_2030": 944.6,
+      "TDS_delta_2030": 1.3,
+      "F_current": 0.8,
+      "F_2026": 0.8,
+      "F_2030": 0.8,
+      "F_delta_2030": -0.1,
+      "NO2+NO3_current": 8.4,
+      "NO2+NO3_2026": 8.9,
+      "NO2+NO3_2030": 8.8,
+      "NO2+NO3_delta_2030": 0.4,
+      "EC_GEN_current": 1545.7,
+      "EC_GEN_2026": 1496.1,
+      "EC_GEN_2030": 1469.9,
+      "EC_GEN_delta_2030": -75.8,
+      "HAR_Total_current": 351.7,
+      "HAR_Total_2026": 349.3,
+      "HAR_Total_2030": 350.9,
+      "HAR_Total_delta_2030": -0.9,
+      "Action_Recommendation": "Priority: Urban Effluent Segregation, Septic Remediation & Stormwater Injection",
+      "Risk_Category_2030": "High Risk"
+    },
+    "Vadipatti": {
+      "taluk": "Vadipatti",
+      "GWQI_current": 110.7,
+      "GWQI_2026": 116.6,
+      "GWQI_2030": 122.1,
+      "GWQI_delta_2030": 11.4,
+      "TDS_current": 723.9,
+      "TDS_2026": 775.5,
+      "TDS_2030": 822.6,
+      "TDS_delta_2030": 98.7,
+      "F_current": 0.7,
+      "F_2026": 0.7,
+      "F_2030": 0.7,
+      "F_delta_2030": -0.0,
+      "NO2+NO3_current": 12.0,
+      "NO2+NO3_2026": 11.2,
+      "NO2+NO3_2030": 11.2,
+      "NO2+NO3_delta_2030": -0.8,
+      "EC_GEN_current": 1190.3,
+      "EC_GEN_2026": 1292.7,
+      "EC_GEN_2030": 1365.2,
+      "EC_GEN_delta_2030": 174.8,
+      "HAR_Total_current": 389.8,
+      "HAR_Total_2026": 388.1,
+      "HAR_Total_2030": 401.8,
+      "HAR_Total_delta_2030": 12.1,
+      "Action_Recommendation": "Controlled: Rainwater Harvesting Monitoring & Wellhead Protection",
+      "Risk_Category_2030": "Controlled"
+    },
+    "Melur": {
+      "taluk": "Melur",
+      "GWQI_current": 112.5,
+      "GWQI_2026": 134.0,
+      "GWQI_2030": 138.2,
+      "GWQI_delta_2030": 25.7,
+      "TDS_current": 819.0,
+      "TDS_2026": 983.4,
+      "TDS_2030": 1014.4,
+      "TDS_delta_2030": 195.4,
+      "F_current": 0.6,
+      "F_2026": 0.6,
+      "F_2030": 0.6,
+      "F_delta_2030": 0.0,
+      "NO2+NO3_current": 9.3,
+      "NO2+NO3_2026": 12.0,
+      "NO2+NO3_2030": 11.5,
+      "NO2+NO3_delta_2030": 2.2,
+      "EC_GEN_current": 1320.4,
+      "EC_GEN_2026": 1643.2,
+      "EC_GEN_2030": 1710.3,
+      "EC_GEN_delta_2030": 389.9,
+      "HAR_Total_current": 335.3,
+      "HAR_Total_2026": 412.7,
+      "HAR_Total_2030": 415.5,
+      "HAR_Total_delta_2030": 80.3,
+      "Action_Recommendation": "Moderate: Canal Water Conjunctive Use, Micro-Irrigation & Farm Pond Subsidies",
+      "Risk_Category_2030": "Moderate Risk"
+    },
+    "Usilampatti": {
+      "taluk": "Usilampatti",
+      "GWQI_current": 139.1,
+      "GWQI_2026": 144.6,
+      "GWQI_2030": 141.1,
+      "GWQI_delta_2030": 2.0,
+      "TDS_current": 976.0,
+      "TDS_2026": 1049.3,
+      "TDS_2030": 1036.0,
+      "TDS_delta_2030": 60.0,
+      "F_current": 0.8,
+      "F_2026": 0.7,
+      "F_2030": 0.7,
+      "F_delta_2030": -0.1,
+      "NO2+NO3_current": 16.9,
+      "NO2+NO3_2026": 17.2,
+      "NO2+NO3_2030": 17.6,
+      "NO2+NO3_delta_2030": 0.7,
+      "EC_GEN_current": 1572.6,
+      "EC_GEN_2026": 1604.4,
+      "EC_GEN_2030": 1508.7,
+      "EC_GEN_delta_2030": -63.9,
+      "HAR_Total_current": 450.0,
+      "HAR_Total_2026": 488.5,
+      "HAR_Total_2030": 477.3,
+      "HAR_Total_delta_2030": 27.3,
+      "Action_Recommendation": "High Priority: Artificial Recharge Check Dams along Gundar/Vaigai basin & Managed Aquifer Recharge (MAR)",
+      "Risk_Category_2030": "Critical Risk"
+    }
+  },
+  "well_predictions": {
+    "21001D": {
+      "village": "Thiruparankundram",
+      "taluk": "Madurai South",
+      "lat": 9.877778,
+      "lon": 78.097222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 172.36,
+          "TDS": 1454.83,
+          "F": 0.82,
+          "NO2+NO3": 2.73,
+          "EC_GEN": 2477.99,
+          "HAR_Total": 428.57,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 174.72,
+          "TDS": 1481.04,
+          "F": 0.76,
+          "NO2+NO3": 2.5,
+          "EC_GEN": 2510.39,
+          "HAR_Total": 439.2,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 177.08,
+          "TDS": 1507.26,
+          "F": 0.71,
+          "NO2+NO3": 2.27,
+          "EC_GEN": 2542.79,
+          "HAR_Total": 449.82,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 182.98,
+          "TDS": 1572.79,
+          "F": 0.57,
+          "NO2+NO3": 1.69,
+          "EC_GEN": 2623.78,
+          "HAR_Total": 476.39,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21002D": {
+      "village": "Chokkanathapuram",
+      "taluk": "Thirumangalam",
+      "lat": 9.945556,
+      "lon": 77.975556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 114.77,
+          "TDS": 888.08,
+          "F": 0.45,
+          "NO2+NO3": 16.55,
+          "EC_GEN": 1398.78,
+          "HAR_Total": 368.81,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 116.1,
+          "TDS": 918.71,
+          "F": 0.41,
+          "NO2+NO3": 16.37,
+          "EC_GEN": 1433.69,
+          "HAR_Total": 358.73,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 117.44,
+          "TDS": 949.34,
+          "F": 0.38,
+          "NO2+NO3": 16.18,
+          "EC_GEN": 1468.6,
+          "HAR_Total": 348.66,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 120.77,
+          "TDS": 1025.92,
+          "F": 0.28,
+          "NO2+NO3": 15.73,
+          "EC_GEN": 1555.87,
+          "HAR_Total": 323.47,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21003D": {
+      "village": "Chinnakattalai",
+      "taluk": "Peraiyur",
+      "lat": 9.845556,
+      "lon": 77.796667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 165.03,
+          "TDS": 1187.94,
+          "F": 1.27,
+          "NO2+NO3": 35.43,
+          "EC_GEN": 1950.89,
+          "HAR_Total": 389.65,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 168.2,
+          "TDS": 1196.72,
+          "F": 1.34,
+          "NO2+NO3": 37.54,
+          "EC_GEN": 1926.02,
+          "HAR_Total": 356.59,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 171.36,
+          "TDS": 1205.49,
+          "F": 1.42,
+          "NO2+NO3": 39.65,
+          "EC_GEN": 1901.14,
+          "HAR_Total": 323.53,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 179.26,
+          "TDS": 1227.43,
+          "F": 1.61,
+          "NO2+NO3": 44.93,
+          "EC_GEN": 1838.96,
+          "HAR_Total": 240.88,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21004D": {
+      "village": "Chinna Ulagani",
+      "taluk": "Thirumangalam",
+      "lat": 9.773611,
+      "lon": 78.052222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 166.28,
+          "TDS": 1268.05,
+          "F": 0.6,
+          "NO2+NO3": 20.8,
+          "EC_GEN": 1714.58,
+          "HAR_Total": 502.65,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 167.85,
+          "TDS": 1276.67,
+          "F": 0.56,
+          "NO2+NO3": 22.04,
+          "EC_GEN": 1670.81,
+          "HAR_Total": 492.9,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 169.42,
+          "TDS": 1285.29,
+          "F": 0.52,
+          "NO2+NO3": 23.28,
+          "EC_GEN": 1627.04,
+          "HAR_Total": 483.16,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 173.35,
+          "TDS": 1306.84,
+          "F": 0.41,
+          "NO2+NO3": 26.37,
+          "EC_GEN": 1517.62,
+          "HAR_Total": 458.81,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21005D": {
+      "village": "Eliyarpatti",
+      "taluk": "Madurai South",
+      "lat": 9.794444,
+      "lon": 78.090278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 68.56,
+          "TDS": 432.55,
+          "F": 0.5,
+          "NO2+NO3": 13.04,
+          "EC_GEN": 672.38,
+          "HAR_Total": 215.74,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 63.06,
+          "TDS": 395.85,
+          "F": 0.47,
+          "NO2+NO3": 11.93,
+          "EC_GEN": 615.33,
+          "HAR_Total": 197.43,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 57.55,
+          "TDS": 359.15,
+          "F": 0.43,
+          "NO2+NO3": 10.82,
+          "EC_GEN": 558.27,
+          "HAR_Total": 179.13,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 43.79,
+          "TDS": 267.39,
+          "F": 0.36,
+          "NO2+NO3": 8.06,
+          "EC_GEN": 415.65,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21006D": {
+      "village": "Elumalai RF",
+      "taluk": "Peraiyur",
+      "lat": 9.861111,
+      "lon": 77.7,
+      "forecasts": {
+        "2026": {
+          "GWQI": 58.84,
+          "TDS": 309.95,
+          "F": 0.88,
+          "NO2+NO3": 4.46,
+          "EC_GEN": 526.76,
+          "HAR_Total": 162.53,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 53.85,
+          "TDS": 283.65,
+          "F": 0.89,
+          "NO2+NO3": 4.08,
+          "EC_GEN": 482.07,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 48.86,
+          "TDS": 257.35,
+          "F": 0.9,
+          "NO2+NO3": 3.7,
+          "EC_GEN": 437.37,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 36.38,
+          "TDS": 191.61,
+          "F": 0.93,
+          "NO2+NO3": 2.75,
+          "EC_GEN": 325.63,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21007D": {
+      "village": "Kallikudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.693889,
+      "lon": 77.971111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 226.65,
+          "TDS": 1769.29,
+          "F": 0.77,
+          "NO2+NO3": 20.46,
+          "EC_GEN": 2800.6,
+          "HAR_Total": 1026.14,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 222.81,
+          "TDS": 1754.01,
+          "F": 0.75,
+          "NO2+NO3": 18.72,
+          "EC_GEN": 2743.84,
+          "HAR_Total": 970.0,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 218.97,
+          "TDS": 1738.73,
+          "F": 0.73,
+          "NO2+NO3": 16.99,
+          "EC_GEN": 2687.08,
+          "HAR_Total": 913.85,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 209.38,
+          "TDS": 1700.52,
+          "F": 0.68,
+          "NO2+NO3": 12.65,
+          "EC_GEN": 2545.19,
+          "HAR_Total": 773.49,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21008D": {
+      "village": "Melamathur",
+      "taluk": "Madurai South",
+      "lat": 9.968056,
+      "lon": 78.007778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 137.33,
+          "TDS": 961.69,
+          "F": 1.2,
+          "NO2+NO3": 10.93,
+          "EC_GEN": 1254.03,
+          "HAR_Total": 504.4,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 141.98,
+          "TDS": 1006.27,
+          "F": 1.24,
+          "NO2+NO3": 10.0,
+          "EC_GEN": 1281.14,
+          "HAR_Total": 530.66,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 146.63,
+          "TDS": 1050.85,
+          "F": 1.29,
+          "NO2+NO3": 9.08,
+          "EC_GEN": 1308.25,
+          "HAR_Total": 556.92,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 158.25,
+          "TDS": 1162.29,
+          "F": 1.39,
+          "NO2+NO3": 6.76,
+          "EC_GEN": 1376.03,
+          "HAR_Total": 622.56,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21010D": {
+      "village": "Karupayoorani",
+      "taluk": "Madurai North",
+      "lat": 9.931944,
+      "lon": 78.177778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 106.79,
+          "TDS": 651.66,
+          "F": 0.96,
+          "NO2+NO3": 8.16,
+          "EC_GEN": 1023.0,
+          "HAR_Total": 276.53,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 103.08,
+          "TDS": 596.37,
+          "F": 1.02,
+          "NO2+NO3": 7.47,
+          "EC_GEN": 936.2,
+          "HAR_Total": 271.14,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 99.37,
+          "TDS": 541.07,
+          "F": 1.07,
+          "NO2+NO3": 6.78,
+          "EC_GEN": 849.4,
+          "HAR_Total": 265.75,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 90.09,
+          "TDS": 402.84,
+          "F": 1.22,
+          "NO2+NO3": 5.05,
+          "EC_GEN": 632.4,
+          "HAR_Total": 252.27,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21011D": {
+      "village": "Mallapuram",
+      "taluk": "Peraiyur",
+      "lat": 9.805556,
+      "lon": 77.668333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 50.14,
+          "TDS": 217.8,
+          "F": 0.52,
+          "NO2+NO3": 1.0,
+          "EC_GEN": 412.5,
+          "HAR_Total": 189.75,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 45.88,
+          "TDS": 199.32,
+          "F": 0.54,
+          "NO2+NO3": 1.0,
+          "EC_GEN": 377.5,
+          "HAR_Total": 173.65,
+          "GWQI_Class": "Excellent"
+        },
+        "2030": {
+          "GWQI": 41.63,
+          "TDS": 180.84,
+          "F": 0.55,
+          "NO2+NO3": 1.0,
+          "EC_GEN": 342.5,
+          "HAR_Total": 157.55,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 35.0,
+          "TDS": 150.0,
+          "F": 0.59,
+          "NO2+NO3": 1.0,
+          "EC_GEN": 255.0,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21012D": {
+      "village": "Kurayur",
+      "taluk": "Thirumangalam",
+      "lat": 9.694444,
+      "lon": 78.025,
+      "forecasts": {
+        "2026": {
+          "GWQI": 211.0,
+          "TDS": 1837.23,
+          "F": 0.27,
+          "NO2+NO3": 23.46,
+          "EC_GEN": 2996.25,
+          "HAR_Total": 665.05,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 222.58,
+          "TDS": 1946.68,
+          "F": 0.25,
+          "NO2+NO3": 22.69,
+          "EC_GEN": 3174.75,
+          "HAR_Total": 704.67,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 234.15,
+          "TDS": 2056.13,
+          "F": 0.23,
+          "NO2+NO3": 21.91,
+          "EC_GEN": 3353.25,
+          "HAR_Total": 744.29,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 263.09,
+          "TDS": 2329.76,
+          "F": 0.2,
+          "NO2+NO3": 19.97,
+          "EC_GEN": 3799.5,
+          "HAR_Total": 843.34,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21013D": {
+      "village": "Manianji",
+      "taluk": "Vadipatti",
+      "lat": 10.004167,
+      "lon": 78.1025,
+      "forecasts": {
+        "2026": {
+          "GWQI": 73.19,
+          "TDS": 396.64,
+          "F": 0.83,
+          "NO2+NO3": 3.96,
+          "EC_GEN": 672.42,
+          "HAR_Total": 228.47,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 71.79,
+          "TDS": 380.1,
+          "F": 0.86,
+          "NO2+NO3": 3.62,
+          "EC_GEN": 645.39,
+          "HAR_Total": 227.26,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 70.4,
+          "TDS": 363.56,
+          "F": 0.9,
+          "NO2+NO3": 3.29,
+          "EC_GEN": 618.36,
+          "HAR_Total": 226.05,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 66.91,
+          "TDS": 322.2,
+          "F": 0.99,
+          "NO2+NO3": 2.45,
+          "EC_GEN": 550.78,
+          "HAR_Total": 223.02,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21014D": {
+      "village": "Kilakuilkudi",
+      "taluk": "Madurai South",
+      "lat": 9.928333,
+      "lon": 78.055,
+      "forecasts": {
+        "2026": {
+          "GWQI": 109.33,
+          "TDS": 726.25,
+          "F": 0.42,
+          "NO2+NO3": 8.42,
+          "EC_GEN": 1352.23,
+          "HAR_Total": 359.56,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 115.45,
+          "TDS": 769.51,
+          "F": 0.42,
+          "NO2+NO3": 8.92,
+          "EC_GEN": 1432.79,
+          "HAR_Total": 329.05,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 121.58,
+          "TDS": 812.78,
+          "F": 0.42,
+          "NO2+NO3": 9.42,
+          "EC_GEN": 1513.35,
+          "HAR_Total": 298.55,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 136.88,
+          "TDS": 920.94,
+          "F": 0.41,
+          "NO2+NO3": 10.68,
+          "EC_GEN": 1714.74,
+          "HAR_Total": 222.27,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21015D": {
+      "village": "Peraiyur",
+      "taluk": "Peraiyur",
+      "lat": 9.74,
+      "lon": 77.793333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 100.67,
+          "TDS": 625.38,
+          "F": 0.9,
+          "NO2+NO3": 14.39,
+          "EC_GEN": 952.76,
+          "HAR_Total": 301.51,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 104.25,
+          "TDS": 647.61,
+          "F": 0.94,
+          "NO2+NO3": 14.67,
+          "EC_GEN": 975.06,
+          "HAR_Total": 301.31,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 107.83,
+          "TDS": 669.84,
+          "F": 0.99,
+          "NO2+NO3": 14.94,
+          "EC_GEN": 997.37,
+          "HAR_Total": 301.11,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 116.77,
+          "TDS": 725.41,
+          "F": 1.1,
+          "NO2+NO3": 15.63,
+          "EC_GEN": 1053.12,
+          "HAR_Total": 300.62,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21016D": {
+      "village": "Subbulapuram",
+      "taluk": "Peraiyur",
+      "lat": 9.675556,
+      "lon": 77.809444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 91.58,
+          "TDS": 609.12,
+          "F": 0.21,
+          "NO2+NO3": 11.29,
+          "EC_GEN": 988.54,
+          "HAR_Total": 242.33,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 95.8,
+          "TDS": 645.41,
+          "F": 0.2,
+          "NO2+NO3": 11.4,
+          "EC_GEN": 1046.35,
+          "HAR_Total": 243.47,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 100.03,
+          "TDS": 681.7,
+          "F": 0.2,
+          "NO2+NO3": 11.51,
+          "EC_GEN": 1104.17,
+          "HAR_Total": 244.6,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 110.59,
+          "TDS": 772.42,
+          "F": 0.2,
+          "NO2+NO3": 11.8,
+          "EC_GEN": 1248.71,
+          "HAR_Total": 247.44,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21017D": {
+      "village": "Thangalacheri",
+      "taluk": "Thirumangalam",
+      "lat": 9.836111,
+      "lon": 77.868889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 163.42,
+          "TDS": 1444.99,
+          "F": 0.46,
+          "NO2+NO3": 34.98,
+          "EC_GEN": 2082.12,
+          "HAR_Total": 447.98,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 153.08,
+          "TDS": 1384.9,
+          "F": 0.47,
+          "NO2+NO3": 32.01,
+          "EC_GEN": 1944.17,
+          "HAR_Total": 409.96,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 142.74,
+          "TDS": 1324.82,
+          "F": 0.49,
+          "NO2+NO3": 29.04,
+          "EC_GEN": 1806.22,
+          "HAR_Total": 371.95,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 116.88,
+          "TDS": 1174.6,
+          "F": 0.51,
+          "NO2+NO3": 21.62,
+          "EC_GEN": 1461.34,
+          "HAR_Total": 276.93,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21018D": {
+      "village": "Peikulam",
+      "taluk": "Thirumangalam",
+      "lat": 9.645833,
+      "lon": 77.991111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 103.11,
+          "TDS": 578.44,
+          "F": 0.25,
+          "NO2+NO3": 6.68,
+          "EC_GEN": 918.22,
+          "HAR_Total": 289.03,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 99.66,
+          "TDS": 535.42,
+          "F": 0.26,
+          "NO2+NO3": 6.12,
+          "EC_GEN": 840.31,
+          "HAR_Total": 272.65,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 96.21,
+          "TDS": 492.39,
+          "F": 0.26,
+          "NO2+NO3": 5.55,
+          "EC_GEN": 762.4,
+          "HAR_Total": 256.26,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 87.58,
+          "TDS": 384.84,
+          "F": 0.29,
+          "NO2+NO3": 4.13,
+          "EC_GEN": 567.63,
+          "HAR_Total": 215.29,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21019D": {
+      "village": "Karungalakudi",
+      "taluk": "Melur",
+      "lat": 10.155556,
+      "lon": 78.369167,
+      "forecasts": {
+        "2026": {
+          "GWQI": 115.45,
+          "TDS": 856.23,
+          "F": 0.7,
+          "NO2+NO3": 4.92,
+          "EC_GEN": 1338.53,
+          "HAR_Total": 351.43,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 120.75,
+          "TDS": 903.88,
+          "F": 0.71,
+          "NO2+NO3": 4.6,
+          "EC_GEN": 1402.95,
+          "HAR_Total": 365.61,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 126.05,
+          "TDS": 951.54,
+          "F": 0.71,
+          "NO2+NO3": 4.29,
+          "EC_GEN": 1467.36,
+          "HAR_Total": 379.78,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 139.3,
+          "TDS": 1070.67,
+          "F": 0.72,
+          "NO2+NO3": 3.51,
+          "EC_GEN": 1628.4,
+          "HAR_Total": 415.22,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21020D": {
+      "village": "Pallapatti",
+      "taluk": "Melur",
+      "lat": 10.247222,
+      "lon": 78.386111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 70.81,
+          "TDS": 417.47,
+          "F": 0.63,
+          "NO2+NO3": 5.17,
+          "EC_GEN": 660.7,
+          "HAR_Total": 214.91,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 67.96,
+          "TDS": 404.34,
+          "F": 0.63,
+          "NO2+NO3": 4.89,
+          "EC_GEN": 622.97,
+          "HAR_Total": 196.68,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 65.1,
+          "TDS": 391.21,
+          "F": 0.64,
+          "NO2+NO3": 4.61,
+          "EC_GEN": 585.25,
+          "HAR_Total": 178.44,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 57.95,
+          "TDS": 358.38,
+          "F": 0.64,
+          "NO2+NO3": 3.92,
+          "EC_GEN": 490.95,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21021D": {
+      "village": "Athipatti",
+      "taluk": "Melur",
+      "lat": 10.086111,
+      "lon": 78.391667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 114.21,
+          "TDS": 912.11,
+          "F": 0.66,
+          "NO2+NO3": 23.44,
+          "EC_GEN": 1584.69,
+          "HAR_Total": 374.34,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 104.52,
+          "TDS": 834.72,
+          "F": 0.7,
+          "NO2+NO3": 21.45,
+          "EC_GEN": 1450.23,
+          "HAR_Total": 342.58,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 94.83,
+          "TDS": 757.32,
+          "F": 0.74,
+          "NO2+NO3": 19.47,
+          "EC_GEN": 1315.77,
+          "HAR_Total": 310.82,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 70.6,
+          "TDS": 563.85,
+          "F": 0.84,
+          "NO2+NO3": 14.49,
+          "EC_GEN": 979.62,
+          "HAR_Total": 231.41,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21022D": {
+      "village": "Pulipatti",
+      "taluk": "Melur",
+      "lat": 10.086111,
+      "lon": 78.291667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 158.23,
+          "TDS": 1329.04,
+          "F": 0.63,
+          "NO2+NO3": 3.39,
+          "EC_GEN": 2312.4,
+          "HAR_Total": 385.99,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 167.66,
+          "TDS": 1408.22,
+          "F": 0.64,
+          "NO2+NO3": 3.22,
+          "EC_GEN": 2450.16,
+          "HAR_Total": 408.98,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 177.09,
+          "TDS": 1487.4,
+          "F": 0.66,
+          "NO2+NO3": 3.06,
+          "EC_GEN": 2587.92,
+          "HAR_Total": 431.98,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 200.65,
+          "TDS": 1685.34,
+          "F": 0.69,
+          "NO2+NO3": 2.64,
+          "EC_GEN": 2932.32,
+          "HAR_Total": 489.47,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21023D": {
+      "village": "Uranganpatti",
+      "taluk": "Melur",
+      "lat": 9.998333,
+      "lon": 78.43,
+      "forecasts": {
+        "2026": {
+          "GWQI": 89.29,
+          "TDS": 541.47,
+          "F": 0.73,
+          "NO2+NO3": 7.62,
+          "EC_GEN": 908.47,
+          "HAR_Total": 250.39,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 92.2,
+          "TDS": 561.3,
+          "F": 0.76,
+          "NO2+NO3": 7.88,
+          "EC_GEN": 934.25,
+          "HAR_Total": 247.94,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 95.12,
+          "TDS": 581.13,
+          "F": 0.78,
+          "NO2+NO3": 8.15,
+          "EC_GEN": 960.04,
+          "HAR_Total": 245.5,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 102.41,
+          "TDS": 630.71,
+          "F": 0.85,
+          "NO2+NO3": 8.82,
+          "EC_GEN": 1024.5,
+          "HAR_Total": 239.39,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21024D": {
+      "village": "Thiruvadur",
+      "taluk": "Melur",
+      "lat": 9.956944,
+      "lon": 78.319444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 155.55,
+          "TDS": 1035.35,
+          "F": 0.42,
+          "NO2+NO3": 15.7,
+          "EC_GEN": 1627.63,
+          "HAR_Total": 313.29,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 163.2,
+          "TDS": 1082.73,
+          "F": 0.42,
+          "NO2+NO3": 16.29,
+          "EC_GEN": 1687.49,
+          "HAR_Total": 313.6,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 170.85,
+          "TDS": 1130.1,
+          "F": 0.42,
+          "NO2+NO3": 16.89,
+          "EC_GEN": 1747.34,
+          "HAR_Total": 313.92,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 189.97,
+          "TDS": 1248.55,
+          "F": 0.41,
+          "NO2+NO3": 18.38,
+          "EC_GEN": 1896.98,
+          "HAR_Total": 314.7,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21025D": {
+      "village": "Varichiyur",
+      "taluk": "Madurai North",
+      "lat": 9.908889,
+      "lon": 78.256111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 164.8,
+          "TDS": 1242.7,
+          "F": 0.95,
+          "NO2+NO3": 34.5,
+          "EC_GEN": 2142.12,
+          "HAR_Total": 485.41,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 174.18,
+          "TDS": 1316.73,
+          "F": 1.01,
+          "NO2+NO3": 34.24,
+          "EC_GEN": 2269.73,
+          "HAR_Total": 492.81,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 183.56,
+          "TDS": 1390.76,
+          "F": 1.07,
+          "NO2+NO3": 33.98,
+          "EC_GEN": 2397.35,
+          "HAR_Total": 500.2,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 207.01,
+          "TDS": 1575.85,
+          "F": 1.21,
+          "NO2+NO3": 33.33,
+          "EC_GEN": 2716.38,
+          "HAR_Total": 518.69,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21026D": {
+      "village": "Senthamangalam",
+      "taluk": "Vadipatti",
+      "lat": 10.138333,
+      "lon": 78.141111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 132.36,
+          "TDS": 704.85,
+          "F": 1.0,
+          "NO2+NO3": 17.8,
+          "EC_GEN": 1181.56,
+          "HAR_Total": 400.35,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 136.69,
+          "TDS": 721.51,
+          "F": 1.05,
+          "NO2+NO3": 17.32,
+          "EC_GEN": 1199.79,
+          "HAR_Total": 397.89,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 141.02,
+          "TDS": 738.16,
+          "F": 1.1,
+          "NO2+NO3": 16.84,
+          "EC_GEN": 1218.02,
+          "HAR_Total": 395.43,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 151.85,
+          "TDS": 779.81,
+          "F": 1.22,
+          "NO2+NO3": 15.64,
+          "EC_GEN": 1263.58,
+          "HAR_Total": 389.29,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21027D": {
+      "village": "Thiruvedagam",
+      "taluk": "Vadipatti",
+      "lat": 10.019444,
+      "lon": 77.972222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 108.44,
+          "TDS": 641.51,
+          "F": 0.68,
+          "NO2+NO3": 2.07,
+          "EC_GEN": 1105.18,
+          "HAR_Total": 377.98,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 111.62,
+          "TDS": 663.55,
+          "F": 0.7,
+          "NO2+NO3": 1.9,
+          "EC_GEN": 1138.46,
+          "HAR_Total": 388.18,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 114.8,
+          "TDS": 685.59,
+          "F": 0.71,
+          "NO2+NO3": 1.72,
+          "EC_GEN": 1171.73,
+          "HAR_Total": 398.37,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 122.75,
+          "TDS": 740.7,
+          "F": 0.74,
+          "NO2+NO3": 1.28,
+          "EC_GEN": 1254.91,
+          "HAR_Total": 423.86,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21028D": {
+      "village": "Veppanuthu",
+      "taluk": "Usilampatti",
+      "lat": 9.897222,
+      "lon": 77.841667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 144.21,
+          "TDS": 982.91,
+          "F": 1.27,
+          "NO2+NO3": 27.55,
+          "EC_GEN": 1596.96,
+          "HAR_Total": 412.97,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 141.34,
+          "TDS": 937.47,
+          "F": 1.31,
+          "NO2+NO3": 28.41,
+          "EC_GEN": 1524.35,
+          "HAR_Total": 394.35,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 138.48,
+          "TDS": 892.03,
+          "F": 1.35,
+          "NO2+NO3": 29.27,
+          "EC_GEN": 1451.73,
+          "HAR_Total": 375.74,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 131.33,
+          "TDS": 778.44,
+          "F": 1.46,
+          "NO2+NO3": 31.42,
+          "EC_GEN": 1270.19,
+          "HAR_Total": 329.21,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21029D": {
+      "village": "Vikramangalam",
+      "taluk": "Usilampatti",
+      "lat": 10.021667,
+      "lon": 77.886667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 307.98,
+          "TDS": 2360.27,
+          "F": 0.37,
+          "NO2+NO3": 30.58,
+          "EC_GEN": 4123.61,
+          "HAR_Total": 1053.9,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2028": {
+          "GWQI": 324.36,
+          "TDS": 2440.1,
+          "F": 0.36,
+          "NO2+NO3": 29.28,
+          "EC_GEN": 4317.37,
+          "HAR_Total": 1110.23,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2030": {
+          "GWQI": 340.74,
+          "TDS": 2519.94,
+          "F": 0.35,
+          "NO2+NO3": 27.97,
+          "EC_GEN": 4511.12,
+          "HAR_Total": 1166.56,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 381.7,
+          "TDS": 2719.52,
+          "F": 0.33,
+          "NO2+NO3": 24.71,
+          "EC_GEN": 4995.51,
+          "HAR_Total": 1307.39,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "21030D": {
+      "village": "Kunnathur",
+      "taluk": "Peraiyur",
+      "lat": 9.746944,
+      "lon": 77.889444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 88.74,
+          "TDS": 514.29,
+          "F": 0.88,
+          "NO2+NO3": 6.69,
+          "EC_GEN": 918.31,
+          "HAR_Total": 289.68,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 94.02,
+          "TDS": 544.93,
+          "F": 0.93,
+          "NO2+NO3": 7.09,
+          "EC_GEN": 973.02,
+          "HAR_Total": 306.94,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 99.31,
+          "TDS": 575.57,
+          "F": 0.99,
+          "NO2+NO3": 7.49,
+          "EC_GEN": 1027.72,
+          "HAR_Total": 324.2,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 112.53,
+          "TDS": 652.16,
+          "F": 1.12,
+          "NO2+NO3": 8.48,
+          "EC_GEN": 1164.49,
+          "HAR_Total": 367.34,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21031D": {
+      "village": "Uthappanaickanur",
+      "taluk": "Usilampatti",
+      "lat": 10.035556,
+      "lon": 77.791111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 129.76,
+          "TDS": 958.55,
+          "F": 0.68,
+          "NO2+NO3": 20.21,
+          "EC_GEN": 1432.2,
+          "HAR_Total": 451.27,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 119.1,
+          "TDS": 898.16,
+          "F": 0.7,
+          "NO2+NO3": 18.5,
+          "EC_GEN": 1310.68,
+          "HAR_Total": 412.99,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 108.45,
+          "TDS": 837.78,
+          "F": 0.72,
+          "NO2+NO3": 16.78,
+          "EC_GEN": 1189.16,
+          "HAR_Total": 374.69,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 81.83,
+          "TDS": 686.83,
+          "F": 0.76,
+          "NO2+NO3": 12.49,
+          "EC_GEN": 885.36,
+          "HAR_Total": 278.97,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21032D": {
+      "village": "Doddappanaickanur",
+      "taluk": "Usilampatti",
+      "lat": 9.971111,
+      "lon": 77.736111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 127.41,
+          "TDS": 854.09,
+          "F": 0.46,
+          "NO2+NO3": 20.68,
+          "EC_GEN": 1425.44,
+          "HAR_Total": 366.76,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 124.61,
+          "TDS": 829.25,
+          "F": 0.43,
+          "NO2+NO3": 21.91,
+          "EC_GEN": 1370.22,
+          "HAR_Total": 343.46,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 121.8,
+          "TDS": 804.4,
+          "F": 0.4,
+          "NO2+NO3": 23.14,
+          "EC_GEN": 1314.99,
+          "HAR_Total": 320.16,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 114.78,
+          "TDS": 742.29,
+          "F": 0.34,
+          "NO2+NO3": 26.22,
+          "EC_GEN": 1176.93,
+          "HAR_Total": 261.92,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21033D": {
+      "village": "Usilampatti",
+      "taluk": "Usilampatti",
+      "lat": 9.959722,
+      "lon": 77.791667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 153.74,
+          "TDS": 1195.19,
+          "F": 1.35,
+          "NO2+NO3": 23.92,
+          "EC_GEN": 1866.86,
+          "HAR_Total": 474.96,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 140.69,
+          "TDS": 1093.78,
+          "F": 1.37,
+          "NO2+NO3": 21.89,
+          "EC_GEN": 1708.46,
+          "HAR_Total": 434.66,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 127.65,
+          "TDS": 992.37,
+          "F": 1.4,
+          "NO2+NO3": 19.86,
+          "EC_GEN": 1550.06,
+          "HAR_Total": 394.36,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 95.04,
+          "TDS": 738.84,
+          "F": 1.48,
+          "NO2+NO3": 14.79,
+          "EC_GEN": 1154.06,
+          "HAR_Total": 293.61,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83004A": {
+      "village": "Kallikudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.7025,
+      "lon": 77.943333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 159.13,
+          "TDS": 1190.83,
+          "F": 0.76,
+          "NO2+NO3": 41.64,
+          "EC_GEN": 1926.96,
+          "HAR_Total": 474.18,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 145.63,
+          "TDS": 1089.79,
+          "F": 0.8,
+          "NO2+NO3": 38.11,
+          "EC_GEN": 1763.46,
+          "HAR_Total": 433.95,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 132.13,
+          "TDS": 988.75,
+          "F": 0.85,
+          "NO2+NO3": 34.58,
+          "EC_GEN": 1599.96,
+          "HAR_Total": 393.71,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 98.37,
+          "TDS": 736.15,
+          "F": 0.96,
+          "NO2+NO3": 25.74,
+          "EC_GEN": 1191.21,
+          "HAR_Total": 293.13,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83005": {
+      "village": "Thiruparankundram",
+      "taluk": "Madurai South",
+      "lat": 9.879167,
+      "lon": 78.114444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 212.5,
+          "TDS": 1839.78,
+          "F": 0.93,
+          "NO2+NO3": 7.5,
+          "EC_GEN": 2981.24,
+          "HAR_Total": 571.58,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 216.55,
+          "TDS": 1875.04,
+          "F": 0.92,
+          "NO2+NO3": 6.86,
+          "EC_GEN": 3024.28,
+          "HAR_Total": 581.13,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 220.6,
+          "TDS": 1910.3,
+          "F": 0.91,
+          "NO2+NO3": 6.23,
+          "EC_GEN": 3067.33,
+          "HAR_Total": 590.67,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 230.74,
+          "TDS": 1998.45,
+          "F": 0.89,
+          "NO2+NO3": 4.64,
+          "EC_GEN": 3174.93,
+          "HAR_Total": 614.53,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83013": {
+      "village": "Usilamaptti",
+      "taluk": "Usilampatti",
+      "lat": 9.966111,
+      "lon": 77.7925,
+      "forecasts": {
+        "2026": {
+          "GWQI": 125.4,
+          "TDS": 787.67,
+          "F": 1.12,
+          "NO2+NO3": 11.83,
+          "EC_GEN": 1421.75,
+          "HAR_Total": 404.55,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 132.87,
+          "TDS": 834.59,
+          "F": 1.18,
+          "NO2+NO3": 12.54,
+          "EC_GEN": 1506.45,
+          "HAR_Total": 424.38,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 140.34,
+          "TDS": 881.52,
+          "F": 1.25,
+          "NO2+NO3": 13.24,
+          "EC_GEN": 1591.15,
+          "HAR_Total": 444.2,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 159.01,
+          "TDS": 998.83,
+          "F": 1.42,
+          "NO2+NO3": 15.01,
+          "EC_GEN": 1802.9,
+          "HAR_Total": 493.75,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83016A": {
+      "village": "Chittampatti",
+      "taluk": "Melur",
+      "lat": 9.988056,
+      "lon": 78.243056,
+      "forecasts": {
+        "2026": {
+          "GWQI": 211.6,
+          "TDS": 1476.66,
+          "F": 0.65,
+          "NO2+NO3": 7.56,
+          "EC_GEN": 2381.04,
+          "HAR_Total": 536.25,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 193.64,
+          "TDS": 1351.37,
+          "F": 0.68,
+          "NO2+NO3": 6.92,
+          "EC_GEN": 2179.01,
+          "HAR_Total": 490.75,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 175.69,
+          "TDS": 1226.07,
+          "F": 0.72,
+          "NO2+NO3": 6.28,
+          "EC_GEN": 1976.99,
+          "HAR_Total": 445.25,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 130.81,
+          "TDS": 912.84,
+          "F": 0.82,
+          "NO2+NO3": 4.67,
+          "EC_GEN": 1471.92,
+          "HAR_Total": 331.5,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83048": {
+      "village": "Puliankulam (M)",
+      "taluk": "Thirumangalam",
+      "lat": 9.651667,
+      "lon": 77.909167,
+      "forecasts": {
+        "2026": {
+          "GWQI": 85.74,
+          "TDS": 504.62,
+          "F": 1.01,
+          "NO2+NO3": 6.51,
+          "EC_GEN": 821.84,
+          "HAR_Total": 188.38,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 85.5,
+          "TDS": 500.21,
+          "F": 1.05,
+          "NO2+NO3": 5.96,
+          "EC_GEN": 804.35,
+          "HAR_Total": 172.39,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 85.26,
+          "TDS": 495.79,
+          "F": 1.1,
+          "NO2+NO3": 5.4,
+          "EC_GEN": 786.86,
+          "HAR_Total": 156.41,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 84.66,
+          "TDS": 484.75,
+          "F": 1.21,
+          "NO2+NO3": 4.02,
+          "EC_GEN": 743.15,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83049": {
+      "village": "Peikulam",
+      "taluk": "Thirumangalam",
+      "lat": 9.645556,
+      "lon": 77.990278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 107.75,
+          "TDS": 691.32,
+          "F": 0.22,
+          "NO2+NO3": 16.79,
+          "EC_GEN": 1190.95,
+          "HAR_Total": 344.95,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 114.17,
+          "TDS": 732.5,
+          "F": 0.2,
+          "NO2+NO3": 17.79,
+          "EC_GEN": 1261.9,
+          "HAR_Total": 365.5,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 120.59,
+          "TDS": 773.69,
+          "F": 0.2,
+          "NO2+NO3": 18.79,
+          "EC_GEN": 1332.85,
+          "HAR_Total": 386.05,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 136.64,
+          "TDS": 876.65,
+          "F": 0.2,
+          "NO2+NO3": 21.29,
+          "EC_GEN": 1510.22,
+          "HAR_Total": 437.42,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83051": {
+      "village": "Karaikeni",
+      "taluk": "Peraiyur",
+      "lat": 9.708333,
+      "lon": 77.968333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 127.01,
+          "TDS": 765.02,
+          "F": 1.6,
+          "NO2+NO3": 21.51,
+          "EC_GEN": 1338.6,
+          "HAR_Total": 385.58,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 134.58,
+          "TDS": 810.59,
+          "F": 1.7,
+          "NO2+NO3": 22.79,
+          "EC_GEN": 1418.34,
+          "HAR_Total": 394.11,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 142.14,
+          "TDS": 856.17,
+          "F": 1.8,
+          "NO2+NO3": 24.07,
+          "EC_GEN": 1498.09,
+          "HAR_Total": 402.65,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 161.06,
+          "TDS": 970.1,
+          "F": 2.03,
+          "NO2+NO3": 27.28,
+          "EC_GEN": 1697.45,
+          "HAR_Total": 424.0,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83052": {
+      "village": "Saptur",
+      "taluk": "Peraiyur",
+      "lat": 9.756389,
+      "lon": 77.741389,
+      "forecasts": {
+        "2026": {
+          "GWQI": 149.87,
+          "TDS": 1012.46,
+          "F": 0.53,
+          "NO2+NO3": 20.37,
+          "EC_GEN": 1758.58,
+          "HAR_Total": 518.96,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 158.8,
+          "TDS": 1072.78,
+          "F": 0.56,
+          "NO2+NO3": 21.58,
+          "EC_GEN": 1863.35,
+          "HAR_Total": 549.88,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 167.73,
+          "TDS": 1133.09,
+          "F": 0.59,
+          "NO2+NO3": 22.79,
+          "EC_GEN": 1968.12,
+          "HAR_Total": 580.79,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 190.05,
+          "TDS": 1283.88,
+          "F": 0.67,
+          "NO2+NO3": 25.83,
+          "EC_GEN": 2230.03,
+          "HAR_Total": 658.08,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83062A": {
+      "village": "Kappalur",
+      "taluk": "Thirumangalam",
+      "lat": 9.840278,
+      "lon": 78.016667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 110.93,
+          "TDS": 809.69,
+          "F": 0.66,
+          "NO2+NO3": 4.49,
+          "EC_GEN": 1341.08,
+          "HAR_Total": 378.58,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 101.51,
+          "TDS": 740.99,
+          "F": 0.68,
+          "NO2+NO3": 4.11,
+          "EC_GEN": 1227.29,
+          "HAR_Total": 346.46,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 92.1,
+          "TDS": 672.29,
+          "F": 0.7,
+          "NO2+NO3": 3.73,
+          "EC_GEN": 1113.51,
+          "HAR_Total": 314.34,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 68.57,
+          "TDS": 500.54,
+          "F": 0.76,
+          "NO2+NO3": 2.78,
+          "EC_GEN": 829.03,
+          "HAR_Total": 234.03,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83064": {
+      "village": "Thirumanickam",
+      "taluk": "Peraiyur",
+      "lat": 9.848889,
+      "lon": 77.752222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 103.08,
+          "TDS": 708.33,
+          "F": 0.99,
+          "NO2+NO3": 20.62,
+          "EC_GEN": 1184.56,
+          "HAR_Total": 369.19,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 94.33,
+          "TDS": 648.23,
+          "F": 1.04,
+          "NO2+NO3": 18.88,
+          "EC_GEN": 1084.05,
+          "HAR_Total": 337.86,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 85.59,
+          "TDS": 588.13,
+          "F": 1.1,
+          "NO2+NO3": 17.12,
+          "EC_GEN": 983.55,
+          "HAR_Total": 306.54,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 63.72,
+          "TDS": 437.88,
+          "F": 1.25,
+          "NO2+NO3": 12.75,
+          "EC_GEN": 732.27,
+          "HAR_Total": 228.22,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83082": {
+      "village": "Uthappanaickanur",
+      "taluk": "Usilampatti",
+      "lat": 10.033333,
+      "lon": 77.787778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 171.83,
+          "TDS": 1046.92,
+          "F": 1.08,
+          "NO2+NO3": 17.41,
+          "EC_GEN": 1903.5,
+          "HAR_Total": 734.38,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 182.07,
+          "TDS": 1109.3,
+          "F": 1.14,
+          "NO2+NO3": 18.12,
+          "EC_GEN": 2016.9,
+          "HAR_Total": 778.12,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 192.31,
+          "TDS": 1171.66,
+          "F": 1.21,
+          "NO2+NO3": 18.83,
+          "EC_GEN": 2130.3,
+          "HAR_Total": 821.88,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 217.9,
+          "TDS": 1327.59,
+          "F": 1.37,
+          "NO2+NO3": 20.61,
+          "EC_GEN": 2413.8,
+          "HAR_Total": 931.25,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83095": {
+      "village": "Pulipatti",
+      "taluk": "Melur",
+      "lat": 10.084444,
+      "lon": 78.288889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 215.46,
+          "TDS": 2151.44,
+          "F": 0.65,
+          "NO2+NO3": 3.85,
+          "EC_GEN": 2981.9,
+          "HAR_Total": 533.2,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 219.13,
+          "TDS": 2211.38,
+          "F": 0.63,
+          "NO2+NO3": 4.07,
+          "EC_GEN": 2997.47,
+          "HAR_Total": 531.09,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 222.8,
+          "TDS": 2271.31,
+          "F": 0.62,
+          "NO2+NO3": 4.29,
+          "EC_GEN": 3013.03,
+          "HAR_Total": 528.97,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 231.97,
+          "TDS": 2421.15,
+          "F": 0.59,
+          "NO2+NO3": 4.85,
+          "EC_GEN": 3051.93,
+          "HAR_Total": 523.67,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83099": {
+      "village": "Kadavur",
+      "taluk": "Madurai North",
+      "lat": 10.075,
+      "lon": 78.175,
+      "forecasts": {
+        "2026": {
+          "GWQI": 101.19,
+          "TDS": 704.49,
+          "F": 0.33,
+          "NO2+NO3": 12.61,
+          "EC_GEN": 1205.4,
+          "HAR_Total": 309.44,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 103.38,
+          "TDS": 731.88,
+          "F": 0.31,
+          "NO2+NO3": 13.36,
+          "EC_GEN": 1246.14,
+          "HAR_Total": 299.79,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 105.57,
+          "TDS": 759.28,
+          "F": 0.28,
+          "NO2+NO3": 14.11,
+          "EC_GEN": 1286.87,
+          "HAR_Total": 290.13,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 111.05,
+          "TDS": 827.77,
+          "F": 0.23,
+          "NO2+NO3": 15.99,
+          "EC_GEN": 1388.71,
+          "HAR_Total": 266.0,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83014B": {
+      "village": "Mullipallam",
+      "taluk": "Vadipatti",
+      "lat": 10.019444,
+      "lon": 77.950556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 104.44,
+          "TDS": 631.54,
+          "F": 0.87,
+          "NO2+NO3": 4.42,
+          "EC_GEN": 1136.65,
+          "HAR_Total": 259.14,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 109.92,
+          "TDS": 660.98,
+          "F": 0.92,
+          "NO2+NO3": 4.24,
+          "EC_GEN": 1187.08,
+          "HAR_Total": 255.14,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 115.41,
+          "TDS": 690.42,
+          "F": 0.98,
+          "NO2+NO3": 4.06,
+          "EC_GEN": 1237.5,
+          "HAR_Total": 251.15,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 129.12,
+          "TDS": 764.01,
+          "F": 1.11,
+          "NO2+NO3": 3.6,
+          "EC_GEN": 1363.57,
+          "HAR_Total": 241.17,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21009D": {
+      "village": "Kappalur",
+      "taluk": "Thirumangalam",
+      "lat": 9.843056,
+      "lon": 78.018611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 175.38,
+          "TDS": 1339.22,
+          "F": 0.91,
+          "NO2+NO3": 23.1,
+          "EC_GEN": 2353.99,
+          "HAR_Total": 542.92,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 180.44,
+          "TDS": 1388.91,
+          "F": 0.96,
+          "NO2+NO3": 21.14,
+          "EC_GEN": 2441.59,
+          "HAR_Total": 529.09,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 185.5,
+          "TDS": 1438.6,
+          "F": 1.02,
+          "NO2+NO3": 19.18,
+          "EC_GEN": 2529.18,
+          "HAR_Total": 515.25,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 198.15,
+          "TDS": 1562.82,
+          "F": 1.15,
+          "NO2+NO3": 14.28,
+          "EC_GEN": 2748.18,
+          "HAR_Total": 480.67,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21034D": {
+      "village": "Chittampatti",
+      "taluk": "Melur",
+      "lat": 10.0,
+      "lon": 78.275,
+      "forecasts": {
+        "2026": {
+          "GWQI": 118.42,
+          "TDS": 1040.56,
+          "F": 0.2,
+          "NO2+NO3": 13.2,
+          "EC_GEN": 1786.11,
+          "HAR_Total": 411.46,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 114.92,
+          "TDS": 1044.79,
+          "F": 0.2,
+          "NO2+NO3": 12.08,
+          "EC_GEN": 1792.55,
+          "HAR_Total": 394.04,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 111.42,
+          "TDS": 1049.02,
+          "F": 0.2,
+          "NO2+NO3": 10.96,
+          "EC_GEN": 1798.99,
+          "HAR_Total": 376.63,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 102.68,
+          "TDS": 1059.58,
+          "F": 0.2,
+          "NO2+NO3": 8.16,
+          "EC_GEN": 1815.1,
+          "HAR_Total": 333.09,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21035D": {
+      "village": "Madurai North",
+      "taluk": "Madurai North",
+      "lat": 9.843056,
+      "lon": 78.141667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 181.68,
+          "TDS": 1614.48,
+          "F": 0.82,
+          "NO2+NO3": 11.32,
+          "EC_GEN": 2590.64,
+          "HAR_Total": 437.35,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 180.24,
+          "TDS": 1643.76,
+          "F": 0.84,
+          "NO2+NO3": 10.36,
+          "EC_GEN": 2610.53,
+          "HAR_Total": 405.37,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 178.8,
+          "TDS": 1673.04,
+          "F": 0.86,
+          "NO2+NO3": 9.4,
+          "EC_GEN": 2630.42,
+          "HAR_Total": 373.4,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 175.2,
+          "TDS": 1746.24,
+          "F": 0.91,
+          "NO2+NO3": 7.0,
+          "EC_GEN": 2680.15,
+          "HAR_Total": 293.48,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21036D": {
+      "village": "Koolapandi",
+      "taluk": "Madurai North",
+      "lat": 10.008333,
+      "lon": 78.147222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 79.08,
+          "TDS": 383.81,
+          "F": 1.31,
+          "NO2+NO3": 2.81,
+          "EC_GEN": 657.1,
+          "HAR_Total": 254.32,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 77.32,
+          "TDS": 369.37,
+          "F": 1.35,
+          "NO2+NO3": 2.57,
+          "EC_GEN": 624.35,
+          "HAR_Total": 247.24,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 75.56,
+          "TDS": 354.94,
+          "F": 1.39,
+          "NO2+NO3": 2.34,
+          "EC_GEN": 591.59,
+          "HAR_Total": 240.17,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 71.16,
+          "TDS": 318.85,
+          "F": 1.48,
+          "NO2+NO3": 1.74,
+          "EC_GEN": 509.69,
+          "HAR_Total": 222.49,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21037D": {
+      "village": "Kandai",
+      "taluk": "Thirumangalam",
+      "lat": 9.877778,
+      "lon": 77.913333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 94.09,
+          "TDS": 495.33,
+          "F": 1.23,
+          "NO2+NO3": 13.78,
+          "EC_GEN": 845.62,
+          "HAR_Total": 237.18,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 90.19,
+          "TDS": 453.3,
+          "F": 1.27,
+          "NO2+NO3": 12.61,
+          "EC_GEN": 773.88,
+          "HAR_Total": 218.05,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 86.29,
+          "TDS": 411.27,
+          "F": 1.31,
+          "NO2+NO3": 11.44,
+          "EC_GEN": 702.12,
+          "HAR_Total": 198.92,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 76.54,
+          "TDS": 306.2,
+          "F": 1.42,
+          "NO2+NO3": 8.52,
+          "EC_GEN": 522.75,
+          "HAR_Total": 151.1,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21038": {
+      "village": "Saranthangi",
+      "taluk": "Vadipatti",
+      "lat": 10.100556,
+      "lon": 78.151944,
+      "forecasts": {
+        "2026": {
+          "GWQI": 79.05,
+          "TDS": 466.49,
+          "F": 0.89,
+          "NO2+NO3": 12.19,
+          "EC_GEN": 855.25,
+          "HAR_Total": 294.25,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 72.34,
+          "TDS": 426.91,
+          "F": 0.95,
+          "NO2+NO3": 11.16,
+          "EC_GEN": 782.68,
+          "HAR_Total": 269.28,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 65.63,
+          "TDS": 387.33,
+          "F": 1.0,
+          "NO2+NO3": 10.12,
+          "EC_GEN": 710.12,
+          "HAR_Total": 244.32,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 48.86,
+          "TDS": 288.38,
+          "F": 1.13,
+          "NO2+NO3": 7.54,
+          "EC_GEN": 528.7,
+          "HAR_Total": 181.9,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21039": {
+      "village": "K.nattarpatti",
+      "taluk": "Usilampatti",
+      "lat": 9.968889,
+      "lon": 77.863611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 101.38,
+          "TDS": 673.0,
+          "F": 0.87,
+          "NO2+NO3": 15.28,
+          "EC_GEN": 1155.81,
+          "HAR_Total": 354.72,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 98.14,
+          "TDS": 684.06,
+          "F": 0.79,
+          "NO2+NO3": 16.19,
+          "EC_GEN": 1152.8,
+          "HAR_Total": 335.93,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 94.91,
+          "TDS": 695.13,
+          "F": 0.72,
+          "NO2+NO3": 17.09,
+          "EC_GEN": 1149.8,
+          "HAR_Total": 317.15,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 86.82,
+          "TDS": 722.79,
+          "F": 0.54,
+          "NO2+NO3": 19.37,
+          "EC_GEN": 1142.28,
+          "HAR_Total": 270.2,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21040": {
+      "village": "T.kallipatti",
+      "taluk": "Peraiyur",
+      "lat": 9.715833,
+      "lon": 77.859444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 136.64,
+          "TDS": 848.35,
+          "F": 0.94,
+          "NO2+NO3": 18.09,
+          "EC_GEN": 1358.85,
+          "HAR_Total": 495.85,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 144.57,
+          "TDS": 898.89,
+          "F": 0.86,
+          "NO2+NO3": 19.17,
+          "EC_GEN": 1429.19,
+          "HAR_Total": 525.39,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 152.51,
+          "TDS": 949.43,
+          "F": 0.78,
+          "NO2+NO3": 20.25,
+          "EC_GEN": 1499.53,
+          "HAR_Total": 554.93,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 172.34,
+          "TDS": 1075.78,
+          "F": 0.58,
+          "NO2+NO3": 22.95,
+          "EC_GEN": 1675.39,
+          "HAR_Total": 628.78,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21041": {
+      "village": "Sedapatti",
+      "taluk": "Peraiyur",
+      "lat": 9.826389,
+      "lon": 77.8,
+      "forecasts": {
+        "2026": {
+          "GWQI": 59.72,
+          "TDS": 344.02,
+          "F": 0.63,
+          "NO2+NO3": 3.79,
+          "EC_GEN": 579.15,
+          "HAR_Total": 152.62,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 54.66,
+          "TDS": 314.83,
+          "F": 0.57,
+          "NO2+NO3": 3.47,
+          "EC_GEN": 530.01,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 49.59,
+          "TDS": 285.64,
+          "F": 0.52,
+          "NO2+NO3": 3.15,
+          "EC_GEN": 480.87,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 36.92,
+          "TDS": 212.67,
+          "F": 0.39,
+          "NO2+NO3": 2.35,
+          "EC_GEN": 358.02,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21042": {
+      "village": "Saptur",
+      "taluk": "Peraiyur",
+      "lat": 9.764722,
+      "lon": 77.740278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 125.67,
+          "TDS": 745.19,
+          "F": 1.61,
+          "NO2+NO3": 9.87,
+          "EC_GEN": 1339.5,
+          "HAR_Total": 320.77,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 133.16,
+          "TDS": 789.58,
+          "F": 1.47,
+          "NO2+NO3": 10.46,
+          "EC_GEN": 1419.3,
+          "HAR_Total": 339.88,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 140.64,
+          "TDS": 833.97,
+          "F": 1.34,
+          "NO2+NO3": 11.05,
+          "EC_GEN": 1499.1,
+          "HAR_Total": 359.0,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 159.36,
+          "TDS": 944.96,
+          "F": 1.0,
+          "NO2+NO3": 12.52,
+          "EC_GEN": 1698.6,
+          "HAR_Total": 406.77,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21068": {
+      "village": "Alanganallur",
+      "taluk": "Vadipatti",
+      "lat": 10.048333,
+      "lon": 78.083889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 143.14,
+          "TDS": 1073.32,
+          "F": 0.23,
+          "NO2+NO3": 20.52,
+          "EC_GEN": 1695.72,
+          "HAR_Total": 543.5,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 146.47,
+          "TDS": 1113.25,
+          "F": 0.21,
+          "NO2+NO3": 18.78,
+          "EC_GEN": 1752.75,
+          "HAR_Total": 536.4,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 149.8,
+          "TDS": 1153.18,
+          "F": 0.2,
+          "NO2+NO3": 17.04,
+          "EC_GEN": 1809.79,
+          "HAR_Total": 529.31,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 158.13,
+          "TDS": 1253.01,
+          "F": 0.2,
+          "NO2+NO3": 12.69,
+          "EC_GEN": 1952.38,
+          "HAR_Total": 511.56,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21069": {
+      "village": "Maduvarpatti",
+      "taluk": "Vadipatti",
+      "lat": 10.080278,
+      "lon": 78.124722,
+      "forecasts": {
+        "2026": {
+          "GWQI": 209.7,
+          "TDS": 1631.07,
+          "F": 0.25,
+          "NO2+NO3": 57.41,
+          "EC_GEN": 2155.29,
+          "HAR_Total": 1018.89,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 221.55,
+          "TDS": 1728.24,
+          "F": 0.23,
+          "NO2+NO3": 60.83,
+          "EC_GEN": 2283.69,
+          "HAR_Total": 1079.59,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 233.4,
+          "TDS": 1825.41,
+          "F": 0.21,
+          "NO2+NO3": 64.25,
+          "EC_GEN": 2412.09,
+          "HAR_Total": 1140.29,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 263.03,
+          "TDS": 2068.33,
+          "F": 0.2,
+          "NO2+NO3": 72.8,
+          "EC_GEN": 2733.09,
+          "HAR_Total": 1292.04,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83006": {
+      "village": "Sathangudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.839167,
+      "lon": 77.939722,
+      "forecasts": {
+        "2026": {
+          "GWQI": 264.27,
+          "TDS": 2136.96,
+          "F": 0.97,
+          "NO2+NO3": 55.89,
+          "EC_GEN": 3652.69,
+          "HAR_Total": 895.12,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 241.85,
+          "TDS": 1955.64,
+          "F": 1.03,
+          "NO2+NO3": 51.15,
+          "EC_GEN": 3342.76,
+          "HAR_Total": 819.17,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 219.43,
+          "TDS": 1774.32,
+          "F": 1.09,
+          "NO2+NO3": 46.41,
+          "EC_GEN": 3032.84,
+          "HAR_Total": 743.22,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 163.37,
+          "TDS": 1321.03,
+          "F": 1.23,
+          "NO2+NO3": 34.55,
+          "EC_GEN": 2258.03,
+          "HAR_Total": 553.35,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83014A": {
+      "village": "Thiruvedagam",
+      "taluk": "Vadipatti",
+      "lat": 10.020556,
+      "lon": 77.963611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 90.77,
+          "TDS": 615.86,
+          "F": 0.76,
+          "NO2+NO3": 13.41,
+          "EC_GEN": 1070.44,
+          "HAR_Total": 275.34,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 83.07,
+          "TDS": 563.61,
+          "F": 0.81,
+          "NO2+NO3": 12.27,
+          "EC_GEN": 979.61,
+          "HAR_Total": 251.98,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 75.37,
+          "TDS": 511.35,
+          "F": 0.85,
+          "NO2+NO3": 11.13,
+          "EC_GEN": 888.79,
+          "HAR_Total": 228.62,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 56.12,
+          "TDS": 380.71,
+          "F": 0.97,
+          "NO2+NO3": 8.29,
+          "EC_GEN": 661.73,
+          "HAR_Total": 170.21,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83073": {
+      "village": "Chokkanathapuram",
+      "taluk": "Thirumangalam",
+      "lat": 9.938056,
+      "lon": 77.965278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 89.45,
+          "TDS": 704.41,
+          "F": 0.79,
+          "NO2+NO3": 16.5,
+          "EC_GEN": 1183.81,
+          "HAR_Total": 374.53,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 90.15,
+          "TDS": 746.38,
+          "F": 0.84,
+          "NO2+NO3": 15.1,
+          "EC_GEN": 1254.34,
+          "HAR_Total": 396.84,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 90.85,
+          "TDS": 788.34,
+          "F": 0.89,
+          "NO2+NO3": 13.7,
+          "EC_GEN": 1324.86,
+          "HAR_Total": 419.16,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 92.6,
+          "TDS": 893.25,
+          "F": 1.01,
+          "NO2+NO3": 10.2,
+          "EC_GEN": 1501.18,
+          "HAR_Total": 474.94,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83506": {
+      "village": "Kottampatti",
+      "taluk": "Melur",
+      "lat": 10.1612,
+      "lon": 78.3341,
+      "forecasts": {
+        "2026": {
+          "GWQI": 200.74,
+          "TDS": 1163.87,
+          "F": 0.91,
+          "NO2+NO3": 19.59,
+          "EC_GEN": 2645.0,
+          "HAR_Total": 923.84,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 205.87,
+          "TDS": 1065.12,
+          "F": 0.87,
+          "NO2+NO3": 17.93,
+          "EC_GEN": 2675.0,
+          "HAR_Total": 978.88,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 211.0,
+          "TDS": 966.36,
+          "F": 0.83,
+          "NO2+NO3": 16.27,
+          "EC_GEN": 2705.0,
+          "HAR_Total": 1033.92,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 223.82,
+          "TDS": 719.48,
+          "F": 0.73,
+          "NO2+NO3": 12.11,
+          "EC_GEN": 2780.0,
+          "HAR_Total": 1171.51,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21043": {
+      "village": "Pullaneri",
+      "taluk": "Usilampatti",
+      "lat": 9.9325,
+      "lon": 77.946667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 143.95,
+          "TDS": 1200.63,
+          "F": 0.58,
+          "NO2+NO3": 7.42,
+          "EC_GEN": 1097.25,
+          "HAR_Total": 563.69,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 144.7,
+          "TDS": 1265.82,
+          "F": 0.61,
+          "NO2+NO3": 6.79,
+          "EC_GEN": 1004.15,
+          "HAR_Total": 551.83,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 145.45,
+          "TDS": 1331.0,
+          "F": 0.65,
+          "NO2+NO3": 6.16,
+          "EC_GEN": 911.05,
+          "HAR_Total": 539.98,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 147.32,
+          "TDS": 1493.97,
+          "F": 0.73,
+          "NO2+NO3": 4.59,
+          "EC_GEN": 678.3,
+          "HAR_Total": 510.33,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21044": {
+      "village": "Sangampatti",
+      "taluk": "Usilampatti",
+      "lat": 9.948333,
+      "lon": 77.898333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 188.13,
+          "TDS": 1421.36,
+          "F": 0.7,
+          "NO2+NO3": 14.49,
+          "EC_GEN": 1344.76,
+          "HAR_Total": 601.21,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 199.34,
+          "TDS": 1506.04,
+          "F": 0.64,
+          "NO2+NO3": 15.36,
+          "EC_GEN": 1285.33,
+          "HAR_Total": 637.03,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 210.54,
+          "TDS": 1590.71,
+          "F": 0.58,
+          "NO2+NO3": 16.22,
+          "EC_GEN": 1225.9,
+          "HAR_Total": 672.84,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 238.56,
+          "TDS": 1802.4,
+          "F": 0.43,
+          "NO2+NO3": 18.38,
+          "EC_GEN": 1077.33,
+          "HAR_Total": 762.38,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "21048": {
+      "village": "Pappanaickenpatti",
+      "taluk": "Peraiyur",
+      "lat": 9.820278,
+      "lon": 77.711111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 244.96,
+          "TDS": 1891.75,
+          "F": 0.39,
+          "NO2+NO3": 9.72,
+          "EC_GEN": 511.5,
+          "HAR_Total": 497.56,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 257.34,
+          "TDS": 2004.45,
+          "F": 0.41,
+          "NO2+NO3": 9.21,
+          "EC_GEN": 468.1,
+          "HAR_Total": 516.59,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 269.73,
+          "TDS": 2117.15,
+          "F": 0.43,
+          "NO2+NO3": 8.7,
+          "EC_GEN": 424.7,
+          "HAR_Total": 535.61,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 300.7,
+          "TDS": 2398.9,
+          "F": 0.49,
+          "NO2+NO3": 7.41,
+          "EC_GEN": 316.2,
+          "HAR_Total": 583.17,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "21050": {
+      "village": "Mathippanur",
+      "taluk": "Peraiyur",
+      "lat": 9.795556,
+      "lon": 77.8375,
+      "forecasts": {
+        "2026": {
+          "GWQI": 51.39,
+          "TDS": 300.96,
+          "F": 0.47,
+          "NO2+NO3": 3.3,
+          "EC_GEN": 391.05,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 47.03,
+          "TDS": 275.42,
+          "F": 0.43,
+          "NO2+NO3": 3.02,
+          "EC_GEN": 357.87,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2030": {
+          "GWQI": 42.67,
+          "TDS": 249.89,
+          "F": 0.39,
+          "NO2+NO3": 2.74,
+          "EC_GEN": 324.69,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 35.0,
+          "TDS": 186.05,
+          "F": 0.29,
+          "NO2+NO3": 2.04,
+          "EC_GEN": 250.0,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21059": {
+      "village": "Kadupatti",
+      "taluk": "Vadipatti",
+      "lat": 10.022222,
+      "lon": 77.92,
+      "forecasts": {
+        "2026": {
+          "GWQI": 55.15,
+          "TDS": 300.96,
+          "F": 0.55,
+          "NO2+NO3": 6.19,
+          "EC_GEN": 480.15,
+          "HAR_Total": 166.65,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 50.47,
+          "TDS": 275.42,
+          "F": 0.5,
+          "NO2+NO3": 5.66,
+          "EC_GEN": 439.41,
+          "HAR_Total": 152.51,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 45.79,
+          "TDS": 249.89,
+          "F": 0.46,
+          "NO2+NO3": 5.14,
+          "EC_GEN": 398.67,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 35.0,
+          "TDS": 186.05,
+          "F": 0.34,
+          "NO2+NO3": 3.82,
+          "EC_GEN": 296.82,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21061": {
+      "village": "Thathampatti",
+      "taluk": "Vadipatti",
+      "lat": 10.022222,
+      "lon": 78.015556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 60.61,
+          "TDS": 352.27,
+          "F": 0.48,
+          "NO2+NO3": 1.9,
+          "EC_GEN": 561.83,
+          "HAR_Total": 201.3,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 55.47,
+          "TDS": 322.38,
+          "F": 0.44,
+          "NO2+NO3": 1.74,
+          "EC_GEN": 514.15,
+          "HAR_Total": 184.22,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 50.33,
+          "TDS": 292.5,
+          "F": 0.4,
+          "NO2+NO3": 1.58,
+          "EC_GEN": 466.49,
+          "HAR_Total": 167.14,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 37.47,
+          "TDS": 217.77,
+          "F": 0.3,
+          "NO2+NO3": 1.17,
+          "EC_GEN": 347.31,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21062": {
+      "village": "Periailandakulam",
+      "taluk": "Vadipatti",
+      "lat": 10.068333,
+      "lon": 78.051389,
+      "forecasts": {
+        "2026": {
+          "GWQI": 63.6,
+          "TDS": 314.82,
+          "F": 1.12,
+          "NO2+NO3": 4.95,
+          "EC_GEN": 539.55,
+          "HAR_Total": 253.42,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 58.21,
+          "TDS": 288.11,
+          "F": 1.13,
+          "NO2+NO3": 4.53,
+          "EC_GEN": 493.77,
+          "HAR_Total": 248.39,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 52.81,
+          "TDS": 261.4,
+          "F": 1.14,
+          "NO2+NO3": 4.11,
+          "EC_GEN": 447.99,
+          "HAR_Total": 243.35,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 39.32,
+          "TDS": 194.62,
+          "F": 1.17,
+          "NO2+NO3": 3.06,
+          "EC_GEN": 333.54,
+          "HAR_Total": 230.77,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21065": {
+      "village": "Mangulam",
+      "taluk": "Madurai North",
+      "lat": 10.035833,
+      "lon": 78.25,
+      "forecasts": {
+        "2026": {
+          "GWQI": 80.82,
+          "TDS": 556.88,
+          "F": 0.8,
+          "NO2+NO3": 7.42,
+          "EC_GEN": 896.77,
+          "HAR_Total": 236.53,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 73.96,
+          "TDS": 509.62,
+          "F": 0.73,
+          "NO2+NO3": 6.79,
+          "EC_GEN": 820.68,
+          "HAR_Total": 219.15,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 67.1,
+          "TDS": 462.38,
+          "F": 0.66,
+          "NO2+NO3": 6.16,
+          "EC_GEN": 744.6,
+          "HAR_Total": 201.76,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 49.96,
+          "TDS": 344.25,
+          "F": 0.49,
+          "NO2+NO3": 4.59,
+          "EC_GEN": 554.37,
+          "HAR_Total": 158.29,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21074": {
+      "village": "Chettikulam",
+      "taluk": "Madurai North",
+      "lat": 9.995,
+      "lon": 78.146944,
+      "forecasts": {
+        "2026": {
+          "GWQI": 135.94,
+          "TDS": 1035.87,
+          "F": 0.79,
+          "NO2+NO3": 16.66,
+          "EC_GEN": 1173.81,
+          "HAR_Total": 453.23,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 136.48,
+          "TDS": 1075.25,
+          "F": 0.77,
+          "NO2+NO3": 15.25,
+          "EC_GEN": 1088.13,
+          "HAR_Total": 456.52,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 137.02,
+          "TDS": 1114.64,
+          "F": 0.74,
+          "NO2+NO3": 13.84,
+          "EC_GEN": 1002.45,
+          "HAR_Total": 459.81,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 138.37,
+          "TDS": 1213.11,
+          "F": 0.68,
+          "NO2+NO3": 10.3,
+          "EC_GEN": 788.26,
+          "HAR_Total": 468.03,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21075": {
+      "village": "Chatrapatti",
+      "taluk": "Madurai North",
+      "lat": 10.03,
+      "lon": 78.15,
+      "forecasts": {
+        "2026": {
+          "GWQI": 58.09,
+          "TDS": 267.8,
+          "F": 0.96,
+          "NO2+NO3": 2.31,
+          "EC_GEN": 504.9,
+          "HAR_Total": 164.18,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 53.16,
+          "TDS": 245.07,
+          "F": 1.02,
+          "NO2+NO3": 2.11,
+          "EC_GEN": 462.06,
+          "HAR_Total": 150.25,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 48.23,
+          "TDS": 222.35,
+          "F": 1.08,
+          "NO2+NO3": 1.92,
+          "EC_GEN": 419.22,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 35.91,
+          "TDS": 165.55,
+          "F": 1.22,
+          "NO2+NO3": 1.43,
+          "EC_GEN": 312.12,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21078": {
+      "village": "Kalikappan",
+      "taluk": "Madurai North",
+      "lat": 9.939444,
+      "lon": 78.193611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 87.91,
+          "TDS": 541.44,
+          "F": 1.05,
+          "NO2+NO3": 11.52,
+          "EC_GEN": 621.24,
+          "HAR_Total": 283.18,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 91.48,
+          "TDS": 573.7,
+          "F": 1.12,
+          "NO2+NO3": 12.2,
+          "EC_GEN": 593.34,
+          "HAR_Total": 300.05,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 95.04,
+          "TDS": 605.95,
+          "F": 1.18,
+          "NO2+NO3": 12.89,
+          "EC_GEN": 565.44,
+          "HAR_Total": 316.92,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 103.96,
+          "TDS": 686.59,
+          "F": 1.34,
+          "NO2+NO3": 14.6,
+          "EC_GEN": 495.68,
+          "HAR_Total": 359.09,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21081": {
+      "village": "Elamanur",
+      "taluk": "Madurai North",
+      "lat": 9.900556,
+      "lon": 78.210833,
+      "forecasts": {
+        "2026": {
+          "GWQI": 238.34,
+          "TDS": 1923.47,
+          "F": 0.51,
+          "NO2+NO3": 19.51,
+          "EC_GEN": 2973.93,
+          "HAR_Total": 917.67,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 252.54,
+          "TDS": 2038.07,
+          "F": 0.46,
+          "NO2+NO3": 20.67,
+          "EC_GEN": 3151.1,
+          "HAR_Total": 972.35,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 266.73,
+          "TDS": 2152.66,
+          "F": 0.42,
+          "NO2+NO3": 21.83,
+          "EC_GEN": 3328.27,
+          "HAR_Total": 1027.02,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 302.23,
+          "TDS": 2439.13,
+          "F": 0.31,
+          "NO2+NO3": 24.73,
+          "EC_GEN": 3771.19,
+          "HAR_Total": 1163.69,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "21082": {
+      "village": "Nallur",
+      "taluk": "Madurai South",
+      "lat": 9.788333,
+      "lon": 78.133333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 95.52,
+          "TDS": 570.82,
+          "F": 0.69,
+          "NO2+NO3": 4.12,
+          "EC_GEN": 795.19,
+          "HAR_Total": 321.95,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 99.94,
+          "TDS": 604.82,
+          "F": 0.73,
+          "NO2+NO3": 3.77,
+          "EC_GEN": 802.87,
+          "HAR_Total": 337.53,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 104.36,
+          "TDS": 638.83,
+          "F": 0.77,
+          "NO2+NO3": 3.42,
+          "EC_GEN": 810.55,
+          "HAR_Total": 353.11,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 115.42,
+          "TDS": 723.84,
+          "F": 0.88,
+          "NO2+NO3": 2.55,
+          "EC_GEN": 829.74,
+          "HAR_Total": 392.06,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21083": {
+      "village": "Nilaiyur",
+      "taluk": "Madurai South",
+      "lat": 9.855556,
+      "lon": 78.059167,
+      "forecasts": {
+        "2026": {
+          "GWQI": 187.88,
+          "TDS": 1434.66,
+          "F": 0.95,
+          "NO2+NO3": 20.68,
+          "EC_GEN": 1573.28,
+          "HAR_Total": 560.6,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 194.86,
+          "TDS": 1485.09,
+          "F": 1.0,
+          "NO2+NO3": 21.91,
+          "EC_GEN": 1439.78,
+          "HAR_Total": 556.44,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 201.84,
+          "TDS": 1535.52,
+          "F": 1.06,
+          "NO2+NO3": 23.14,
+          "EC_GEN": 1306.3,
+          "HAR_Total": 552.27,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 219.29,
+          "TDS": 1661.58,
+          "F": 1.2,
+          "NO2+NO3": 26.22,
+          "EC_GEN": 972.57,
+          "HAR_Total": 541.87,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "501001": {
+      "village": "Oomatchikulam",
+      "taluk": "Madurai North",
+      "lat": 10.005,
+      "lon": 78.148056,
+      "forecasts": {
+        "2026": {
+          "GWQI": 154.96,
+          "TDS": 1262.65,
+          "F": 1.33,
+          "NO2+NO3": 16.93,
+          "EC_GEN": 1568.06,
+          "HAR_Total": 453.38,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 160.8,
+          "TDS": 1337.88,
+          "F": 1.35,
+          "NO2+NO3": 17.93,
+          "EC_GEN": 1640.08,
+          "HAR_Total": 462.13,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 166.64,
+          "TDS": 1413.1,
+          "F": 1.36,
+          "NO2+NO3": 18.94,
+          "EC_GEN": 1712.11,
+          "HAR_Total": 470.88,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 181.23,
+          "TDS": 1601.15,
+          "F": 1.4,
+          "NO2+NO3": 21.46,
+          "EC_GEN": 1892.17,
+          "HAR_Total": 492.75,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501002": {
+      "village": "Thanichiyam",
+      "taluk": "Vadipatti",
+      "lat": 10.041111,
+      "lon": 78.010556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 137.38,
+          "TDS": 875.08,
+          "F": 0.84,
+          "NO2+NO3": 12.63,
+          "EC_GEN": 1586.25,
+          "HAR_Total": 436.22,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 145.56,
+          "TDS": 927.21,
+          "F": 0.77,
+          "NO2+NO3": 13.38,
+          "EC_GEN": 1680.75,
+          "HAR_Total": 462.21,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 153.74,
+          "TDS": 979.35,
+          "F": 0.7,
+          "NO2+NO3": 14.14,
+          "EC_GEN": 1775.25,
+          "HAR_Total": 488.19,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 174.2,
+          "TDS": 1109.68,
+          "F": 0.52,
+          "NO2+NO3": 16.02,
+          "EC_GEN": 2011.5,
+          "HAR_Total": 553.16,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501003": {
+      "village": "Varichiyur",
+      "taluk": "Madurai North",
+      "lat": 9.913056,
+      "lon": 78.251111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 110.34,
+          "TDS": 797.41,
+          "F": 0.55,
+          "NO2+NO3": 4.03,
+          "EC_GEN": 1434.06,
+          "HAR_Total": 337.79,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 102.07,
+          "TDS": 729.75,
+          "F": 0.5,
+          "NO2+NO3": 3.69,
+          "EC_GEN": 1315.68,
+          "HAR_Total": 309.13,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 93.79,
+          "TDS": 662.09,
+          "F": 0.45,
+          "NO2+NO3": 3.35,
+          "EC_GEN": 1197.31,
+          "HAR_Total": 280.47,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 73.11,
+          "TDS": 492.94,
+          "F": 0.34,
+          "NO2+NO3": 2.49,
+          "EC_GEN": 901.37,
+          "HAR_Total": 208.82,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "501004": {
+      "village": "Sakkudi",
+      "taluk": "Madurai North",
+      "lat": 9.864167,
+      "lon": 78.223611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 139.41,
+          "TDS": 1132.4,
+          "F": 0.4,
+          "NO2+NO3": 11.88,
+          "EC_GEN": 1770.58,
+          "HAR_Total": 408.63,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 139.32,
+          "TDS": 1164.17,
+          "F": 0.37,
+          "NO2+NO3": 12.51,
+          "EC_GEN": 1804.21,
+          "HAR_Total": 422.08,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 139.22,
+          "TDS": 1195.93,
+          "F": 0.34,
+          "NO2+NO3": 13.14,
+          "EC_GEN": 1837.84,
+          "HAR_Total": 435.54,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 138.97,
+          "TDS": 1275.33,
+          "F": 0.25,
+          "NO2+NO3": 14.72,
+          "EC_GEN": 1921.92,
+          "HAR_Total": 469.17,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501005": {
+      "village": "Chithakur",
+      "taluk": "Madurai North",
+      "lat": 9.948333,
+      "lon": 78.243611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 95.96,
+          "TDS": 680.08,
+          "F": 0.85,
+          "NO2+NO3": 6.43,
+          "EC_GEN": 1098.62,
+          "HAR_Total": 239.25,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 87.81,
+          "TDS": 622.37,
+          "F": 0.78,
+          "NO2+NO3": 5.88,
+          "EC_GEN": 1005.41,
+          "HAR_Total": 218.95,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 79.67,
+          "TDS": 564.67,
+          "F": 0.71,
+          "NO2+NO3": 5.34,
+          "EC_GEN": 912.19,
+          "HAR_Total": 198.65,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 59.32,
+          "TDS": 420.41,
+          "F": 0.53,
+          "NO2+NO3": 3.97,
+          "EC_GEN": 679.15,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "501006": {
+      "village": "Poikaraipatti",
+      "taluk": "Madurai North",
+      "lat": 10.047222,
+      "lon": 78.202778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 166.11,
+          "TDS": 1255.78,
+          "F": 0.46,
+          "NO2+NO3": 12.63,
+          "EC_GEN": 2229.56,
+          "HAR_Total": 643.31,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 176.0,
+          "TDS": 1330.59,
+          "F": 0.43,
+          "NO2+NO3": 13.38,
+          "EC_GEN": 2362.39,
+          "HAR_Total": 681.64,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 185.9,
+          "TDS": 1405.41,
+          "F": 0.41,
+          "NO2+NO3": 14.14,
+          "EC_GEN": 2495.21,
+          "HAR_Total": 719.96,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 210.64,
+          "TDS": 1592.44,
+          "F": 0.34,
+          "NO2+NO3": 16.02,
+          "EC_GEN": 2827.28,
+          "HAR_Total": 815.78,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "501007": {
+      "village": "Velliankundram",
+      "taluk": "Madurai North",
+      "lat": 10.020556,
+      "lon": 78.178333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 98.79,
+          "TDS": 680.55,
+          "F": 0.43,
+          "NO2+NO3": 4.62,
+          "EC_GEN": 999.65,
+          "HAR_Total": 263.18,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 99.25,
+          "TDS": 688.82,
+          "F": 0.4,
+          "NO2+NO3": 4.23,
+          "EC_GEN": 971.92,
+          "HAR_Total": 240.84,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 99.72,
+          "TDS": 697.08,
+          "F": 0.37,
+          "NO2+NO3": 3.84,
+          "EC_GEN": 944.18,
+          "HAR_Total": 218.51,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 100.88,
+          "TDS": 717.73,
+          "F": 0.3,
+          "NO2+NO3": 2.86,
+          "EC_GEN": 874.83,
+          "HAR_Total": 162.69,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501012": {
+      "village": "Vilacherry",
+      "taluk": "Madurai South",
+      "lat": 9.9,
+      "lon": 78.059444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 62.04,
+          "TDS": 333.71,
+          "F": 0.77,
+          "NO2+NO3": 2.56,
+          "EC_GEN": 552.75,
+          "HAR_Total": 200.47,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 56.77,
+          "TDS": 305.4,
+          "F": 0.73,
+          "NO2+NO3": 2.34,
+          "EC_GEN": 505.85,
+          "HAR_Total": 183.47,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 51.51,
+          "TDS": 277.08,
+          "F": 0.69,
+          "NO2+NO3": 2.12,
+          "EC_GEN": 458.95,
+          "HAR_Total": 166.45,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 38.35,
+          "TDS": 206.29,
+          "F": 0.6,
+          "NO2+NO3": 1.58,
+          "EC_GEN": 341.7,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501023": {
+      "village": "Mangalrev",
+      "taluk": "Peraiyur",
+      "lat": 9.786111,
+      "lon": 77.797222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 65.63,
+          "TDS": 394.76,
+          "F": 0.77,
+          "NO2+NO3": 6.36,
+          "EC_GEN": 646.39,
+          "HAR_Total": 156.75,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 60.06,
+          "TDS": 361.27,
+          "F": 0.7,
+          "NO2+NO3": 5.82,
+          "EC_GEN": 591.54,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 54.49,
+          "TDS": 327.77,
+          "F": 0.64,
+          "NO2+NO3": 5.28,
+          "EC_GEN": 536.7,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 40.57,
+          "TDS": 244.03,
+          "F": 0.48,
+          "NO2+NO3": 3.93,
+          "EC_GEN": 399.58,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501028": {
+      "village": "Athanur",
+      "taluk": "Peraiyur",
+      "lat": 9.725,
+      "lon": 77.895556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 134.91,
+          "TDS": 933.54,
+          "F": 0.79,
+          "NO2+NO3": 12.73,
+          "EC_GEN": 1437.42,
+          "HAR_Total": 407.33,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 142.95,
+          "TDS": 989.15,
+          "F": 0.73,
+          "NO2+NO3": 13.49,
+          "EC_GEN": 1523.05,
+          "HAR_Total": 431.6,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 150.99,
+          "TDS": 1044.77,
+          "F": 0.67,
+          "NO2+NO3": 14.25,
+          "EC_GEN": 1608.68,
+          "HAR_Total": 455.87,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 171.08,
+          "TDS": 1183.81,
+          "F": 0.53,
+          "NO2+NO3": 16.14,
+          "EC_GEN": 1822.77,
+          "HAR_Total": 516.53,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501030": {
+      "village": "Mothagam",
+      "taluk": "Peraiyur",
+      "lat": 9.679167,
+      "lon": 77.808889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 279.01,
+          "TDS": 2095.16,
+          "F": 0.2,
+          "NO2+NO3": 29.7,
+          "EC_GEN": 3150.31,
+          "HAR_Total": 593.38,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 295.63,
+          "TDS": 2219.97,
+          "F": 0.2,
+          "NO2+NO3": 30.65,
+          "EC_GEN": 3337.98,
+          "HAR_Total": 628.73,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 312.26,
+          "TDS": 2344.79,
+          "F": 0.2,
+          "NO2+NO3": 31.6,
+          "EC_GEN": 3525.66,
+          "HAR_Total": 664.08,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 353.81,
+          "TDS": 2656.84,
+          "F": 0.2,
+          "NO2+NO3": 33.97,
+          "EC_GEN": 3994.86,
+          "HAR_Total": 752.45,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "501032": {
+      "village": "Salichanthai",
+      "taluk": "Peraiyur",
+      "lat": 9.728333,
+      "lon": 77.801944,
+      "forecasts": {
+        "2026": {
+          "GWQI": 230.13,
+          "TDS": 1911.42,
+          "F": 0.32,
+          "NO2+NO3": 9.75,
+          "EC_GEN": 2814.07,
+          "HAR_Total": 674.02,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 221.52,
+          "TDS": 1793.58,
+          "F": 0.29,
+          "NO2+NO3": 10.33,
+          "EC_GEN": 2575.3,
+          "HAR_Total": 616.84,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 212.92,
+          "TDS": 1675.75,
+          "F": 0.26,
+          "NO2+NO3": 10.91,
+          "EC_GEN": 2336.53,
+          "HAR_Total": 559.64,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 191.4,
+          "TDS": 1381.17,
+          "F": 0.2,
+          "NO2+NO3": 12.37,
+          "EC_GEN": 1739.61,
+          "HAR_Total": 416.67,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501033": {
+      "village": "Samayanallur",
+      "taluk": "Madurai North",
+      "lat": 9.980833,
+      "lon": 78.042222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 169.9,
+          "TDS": 1430.53,
+          "F": 0.8,
+          "NO2+NO3": 3.53,
+          "EC_GEN": 2337.04,
+          "HAR_Total": 376.46,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 177.36,
+          "TDS": 1512.54,
+          "F": 0.73,
+          "NO2+NO3": 3.74,
+          "EC_GEN": 2460.25,
+          "HAR_Total": 386.04,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 184.82,
+          "TDS": 1594.55,
+          "F": 0.66,
+          "NO2+NO3": 3.95,
+          "EC_GEN": 2583.46,
+          "HAR_Total": 395.62,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 203.46,
+          "TDS": 1799.58,
+          "F": 0.49,
+          "NO2+NO3": 4.48,
+          "EC_GEN": 2891.5,
+          "HAR_Total": 419.58,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "501035": {
+      "village": "Nedunkulam",
+      "taluk": "Madurai South",
+      "lat": 9.787222,
+      "lon": 78.178056,
+      "forecasts": {
+        "2026": {
+          "GWQI": 153.18,
+          "TDS": 1244.25,
+          "F": 1.35,
+          "NO2+NO3": 11.55,
+          "EC_GEN": 1815.36,
+          "HAR_Total": 367.95,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 152.52,
+          "TDS": 1259.55,
+          "F": 1.39,
+          "NO2+NO3": 10.57,
+          "EC_GEN": 1773.1,
+          "HAR_Total": 336.73,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 151.86,
+          "TDS": 1274.85,
+          "F": 1.44,
+          "NO2+NO3": 9.59,
+          "EC_GEN": 1730.84,
+          "HAR_Total": 305.51,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 150.21,
+          "TDS": 1313.1,
+          "F": 1.55,
+          "NO2+NO3": 7.14,
+          "EC_GEN": 1625.2,
+          "HAR_Total": 227.46,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501036": {
+      "village": "Othai Alangulam",
+      "taluk": "Madurai South",
+      "lat": 9.809722,
+      "lon": 78.055,
+      "forecasts": {
+        "2026": {
+          "GWQI": 416.98,
+          "TDS": 3624.22,
+          "F": 0.95,
+          "NO2+NO3": 36.82,
+          "EC_GEN": 5825.39,
+          "HAR_Total": 2008.6,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2028": {
+          "GWQI": 441.82,
+          "TDS": 3840.13,
+          "F": 0.96,
+          "NO2+NO3": 39.01,
+          "EC_GEN": 6172.43,
+          "HAR_Total": 2128.26,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2030": {
+          "GWQI": 450.0,
+          "TDS": 4056.04,
+          "F": 0.97,
+          "NO2+NO3": 41.2,
+          "EC_GEN": 6519.48,
+          "HAR_Total": 2247.92,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 450.0,
+          "TDS": 4595.82,
+          "F": 1.0,
+          "NO2+NO3": 46.69,
+          "EC_GEN": 7387.09,
+          "HAR_Total": 2547.07,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "501037": {
+      "village": "Mykudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.787778,
+      "lon": 78.016667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 334.9,
+          "TDS": 3440.4,
+          "F": 0.59,
+          "NO2+NO3": 5.67,
+          "EC_GEN": 4824.73,
+          "HAR_Total": 1002.42,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2028": {
+          "GWQI": 351.65,
+          "TDS": 3645.36,
+          "F": 0.54,
+          "NO2+NO3": 5.19,
+          "EC_GEN": 5081.12,
+          "HAR_Total": 1062.14,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2030": {
+          "GWQI": 368.4,
+          "TDS": 3850.32,
+          "F": 0.49,
+          "NO2+NO3": 4.71,
+          "EC_GEN": 5337.51,
+          "HAR_Total": 1121.86,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 410.27,
+          "TDS": 4362.72,
+          "F": 0.36,
+          "NO2+NO3": 3.51,
+          "EC_GEN": 5978.48,
+          "HAR_Total": 1271.16,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "501043": {
+      "village": "Sivarakottai",
+      "taluk": "Thirumangalam",
+      "lat": 9.744722,
+      "lon": 77.98,
+      "forecasts": {
+        "2026": {
+          "GWQI": 106.33,
+          "TDS": 665.05,
+          "F": 1.01,
+          "NO2+NO3": 6.11,
+          "EC_GEN": 780.91,
+          "HAR_Total": 334.88,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 110.95,
+          "TDS": 704.67,
+          "F": 0.92,
+          "NO2+NO3": 5.75,
+          "EC_GEN": 810.28,
+          "HAR_Total": 354.83,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 115.56,
+          "TDS": 744.29,
+          "F": 0.84,
+          "NO2+NO3": 5.4,
+          "EC_GEN": 839.64,
+          "HAR_Total": 374.77,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 127.1,
+          "TDS": 843.34,
+          "F": 0.62,
+          "NO2+NO3": 4.51,
+          "EC_GEN": 913.05,
+          "HAR_Total": 424.65,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501050": {
+      "village": "Thumbalapatti",
+      "taluk": "Usilampatti",
+      "lat": 9.869444,
+      "lon": 77.776111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 62.25,
+          "TDS": 366.54,
+          "F": 0.48,
+          "NO2+NO3": 11.75,
+          "EC_GEN": 627.59,
+          "HAR_Total": 189.75,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 56.97,
+          "TDS": 335.44,
+          "F": 0.44,
+          "NO2+NO3": 12.45,
+          "EC_GEN": 574.34,
+          "HAR_Total": 173.65,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 51.69,
+          "TDS": 304.34,
+          "F": 0.4,
+          "NO2+NO3": 13.15,
+          "EC_GEN": 521.09,
+          "HAR_Total": 157.55,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 38.48,
+          "TDS": 226.59,
+          "F": 0.3,
+          "NO2+NO3": 14.9,
+          "EC_GEN": 387.96,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501053": {
+      "village": "Alagapuri",
+      "taluk": "Vadipatti",
+      "lat": 10.056389,
+      "lon": 78.069722,
+      "forecasts": {
+        "2026": {
+          "GWQI": 79.27,
+          "TDS": 483.63,
+          "F": 0.6,
+          "NO2+NO3": 5.68,
+          "EC_GEN": 859.83,
+          "HAR_Total": 319.94,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 72.55,
+          "TDS": 442.6,
+          "F": 0.55,
+          "NO2+NO3": 5.2,
+          "EC_GEN": 786.88,
+          "HAR_Total": 302.14,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 65.82,
+          "TDS": 401.56,
+          "F": 0.5,
+          "NO2+NO3": 4.72,
+          "EC_GEN": 713.92,
+          "HAR_Total": 284.34,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 49.01,
+          "TDS": 298.97,
+          "F": 0.37,
+          "NO2+NO3": 3.51,
+          "EC_GEN": 531.53,
+          "HAR_Total": 239.83,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501054": {
+      "village": "Manickampatti",
+      "taluk": "Vadipatti",
+      "lat": 10.104444,
+      "lon": 78.125278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 207.57,
+          "TDS": 1597.3,
+          "F": 0.42,
+          "NO2+NO3": 26.79,
+          "EC_GEN": 2831.75,
+          "HAR_Total": 810.75,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 219.94,
+          "TDS": 1692.45,
+          "F": 0.39,
+          "NO2+NO3": 28.39,
+          "EC_GEN": 3000.45,
+          "HAR_Total": 859.05,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 232.3,
+          "TDS": 1787.61,
+          "F": 0.35,
+          "NO2+NO3": 29.98,
+          "EC_GEN": 3169.15,
+          "HAR_Total": 907.35,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 263.22,
+          "TDS": 2025.51,
+          "F": 0.26,
+          "NO2+NO3": 33.97,
+          "EC_GEN": 3590.9,
+          "HAR_Total": 1028.1,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "81001B": {
+      "village": "Kochadai",
+      "taluk": "Madurai North",
+      "lat": 9.943333,
+      "lon": 78.0775,
+      "forecasts": {
+        "2026": {
+          "GWQI": 76.9,
+          "TDS": 548.64,
+          "F": 0.32,
+          "NO2+NO3": 7.56,
+          "EC_GEN": 847.81,
+          "HAR_Total": 229.54,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 74.67,
+          "TDS": 549.62,
+          "F": 0.3,
+          "NO2+NO3": 8.01,
+          "EC_GEN": 827.33,
+          "HAR_Total": 217.75,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 72.44,
+          "TDS": 550.59,
+          "F": 0.27,
+          "NO2+NO3": 8.46,
+          "EC_GEN": 806.86,
+          "HAR_Total": 205.96,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 66.87,
+          "TDS": 553.03,
+          "F": 0.2,
+          "NO2+NO3": 9.58,
+          "EC_GEN": 755.67,
+          "HAR_Total": 176.5,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83006A": {
+      "village": "Sathankudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.7891,
+      "lon": 77.962,
+      "forecasts": {
+        "2026": {
+          "GWQI": 224.04,
+          "TDS": 1769.52,
+          "F": 0.91,
+          "NO2+NO3": 44.95,
+          "EC_GEN": 1905.05,
+          "HAR_Total": 522.38,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 223.19,
+          "TDS": 1811.86,
+          "F": 0.86,
+          "NO2+NO3": 46.47,
+          "EC_GEN": 1748.74,
+          "HAR_Total": 509.0,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 222.34,
+          "TDS": 1854.21,
+          "F": 0.81,
+          "NO2+NO3": 47.99,
+          "EC_GEN": 1592.42,
+          "HAR_Total": 495.62,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 220.21,
+          "TDS": 1960.06,
+          "F": 0.68,
+          "NO2+NO3": 51.77,
+          "EC_GEN": 1201.64,
+          "HAR_Total": 462.17,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83007B": {
+      "village": "Chinnakattalai",
+      "taluk": "Peraiyur",
+      "lat": 9.951944,
+      "lon": 77.800556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 311.58,
+          "TDS": 2772.53,
+          "F": 0.79,
+          "NO2+NO3": 7.67,
+          "EC_GEN": 4436.8,
+          "HAR_Total": 987.0,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2028": {
+          "GWQI": 330.14,
+          "TDS": 2937.7,
+          "F": 0.73,
+          "NO2+NO3": 7.02,
+          "EC_GEN": 4701.12,
+          "HAR_Total": 1045.8,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2030": {
+          "GWQI": 348.7,
+          "TDS": 3102.87,
+          "F": 0.66,
+          "NO2+NO3": 6.37,
+          "EC_GEN": 4965.44,
+          "HAR_Total": 1104.6,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 395.11,
+          "TDS": 3515.8,
+          "F": 0.49,
+          "NO2+NO3": 4.74,
+          "EC_GEN": 5626.24,
+          "HAR_Total": 1251.6,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "83008": {
+      "village": "Elumalai",
+      "taluk": "Peraiyur",
+      "lat": 9.861111,
+      "lon": 77.701111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 95.11,
+          "TDS": 687.68,
+          "F": 0.82,
+          "NO2+NO3": 23.33,
+          "EC_GEN": 1086.05,
+          "HAR_Total": 234.96,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 94.79,
+          "TDS": 720.91,
+          "F": 0.75,
+          "NO2+NO3": 24.14,
+          "EC_GEN": 1130.06,
+          "HAR_Total": 218.94,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 94.46,
+          "TDS": 754.14,
+          "F": 0.68,
+          "NO2+NO3": 24.96,
+          "EC_GEN": 1174.08,
+          "HAR_Total": 202.93,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 93.65,
+          "TDS": 837.21,
+          "F": 0.5,
+          "NO2+NO3": 26.99,
+          "EC_GEN": 1284.13,
+          "HAR_Total": 162.89,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83020A": {
+      "village": "Valayapatti",
+      "taluk": "Vadipatti",
+      "lat": 10.0881,
+      "lon": 77.9942,
+      "forecasts": {
+        "2026": {
+          "GWQI": 133.69,
+          "TDS": 762.28,
+          "F": 1.13,
+          "NO2+NO3": 7.84,
+          "EC_GEN": 1386.5,
+          "HAR_Total": 333.3,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 141.66,
+          "TDS": 807.69,
+          "F": 1.06,
+          "NO2+NO3": 7.17,
+          "EC_GEN": 1469.1,
+          "HAR_Total": 325.11,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 149.62,
+          "TDS": 853.11,
+          "F": 0.99,
+          "NO2+NO3": 6.51,
+          "EC_GEN": 1551.7,
+          "HAR_Total": 316.93,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 169.54,
+          "TDS": 966.64,
+          "F": 0.83,
+          "NO2+NO3": 4.84,
+          "EC_GEN": 1758.2,
+          "HAR_Total": 296.48,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "83072A": {
+      "village": "Valandur",
+      "taluk": "Usilampatti",
+      "lat": 9.949722,
+      "lon": 77.871944,
+      "forecasts": {
+        "2026": {
+          "GWQI": 105.36,
+          "TDS": 692.03,
+          "F": 0.98,
+          "NO2+NO3": 2.99,
+          "EC_GEN": 1292.19,
+          "HAR_Total": 304.96,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 103.32,
+          "TDS": 687.34,
+          "F": 0.9,
+          "NO2+NO3": 2.74,
+          "EC_GEN": 1292.57,
+          "HAR_Total": 316.19,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 101.27,
+          "TDS": 682.65,
+          "F": 0.81,
+          "NO2+NO3": 2.48,
+          "EC_GEN": 1292.95,
+          "HAR_Total": 327.42,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 96.16,
+          "TDS": 670.93,
+          "F": 0.61,
+          "NO2+NO3": 1.85,
+          "EC_GEN": 1293.89,
+          "HAR_Total": 355.51,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "83080A": {
+      "village": "Nagari",
+      "taluk": "Vadipatti",
+      "lat": 10.019444,
+      "lon": 78.016389,
+      "forecasts": {
+        "2026": {
+          "GWQI": 179.47,
+          "TDS": 1486.18,
+          "F": 0.59,
+          "NO2+NO3": 4.94,
+          "EC_GEN": 2082.69,
+          "HAR_Total": 585.54,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 190.16,
+          "TDS": 1574.72,
+          "F": 0.54,
+          "NO2+NO3": 4.65,
+          "EC_GEN": 2206.76,
+          "HAR_Total": 620.42,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 200.85,
+          "TDS": 1663.26,
+          "F": 0.49,
+          "NO2+NO3": 4.35,
+          "EC_GEN": 2330.84,
+          "HAR_Total": 655.31,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 227.58,
+          "TDS": 1884.6,
+          "F": 0.36,
+          "NO2+NO3": 3.62,
+          "EC_GEN": 2641.03,
+          "HAR_Total": 742.52,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83092AY": {
+      "village": "Nirathan",
+      "taluk": "Vadipatti",
+      "lat": 10.0525,
+      "lon": 77.975556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 88.96,
+          "TDS": 425.73,
+          "F": 0.78,
+          "NO2+NO3": 3.77,
+          "EC_GEN": 723.51,
+          "HAR_Total": 290.81,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 92.36,
+          "TDS": 432.34,
+          "F": 0.71,
+          "NO2+NO3": 3.95,
+          "EC_GEN": 734.11,
+          "HAR_Total": 308.14,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 95.76,
+          "TDS": 438.95,
+          "F": 0.65,
+          "NO2+NO3": 4.14,
+          "EC_GEN": 744.72,
+          "HAR_Total": 325.46,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 104.27,
+          "TDS": 455.48,
+          "F": 0.48,
+          "NO2+NO3": 4.6,
+          "EC_GEN": 771.22,
+          "HAR_Total": 368.78,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21056": {
+      "village": "Meikilarpatti",
+      "taluk": "Usilampatti",
+      "lat": 9.980556,
+      "lon": 77.802778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 125.71,
+          "TDS": 1189.49,
+          "F": 0.2,
+          "NO2+NO3": 39.56,
+          "EC_GEN": 959.75,
+          "HAR_Total": 501.33,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 116.83,
+          "TDS": 1260.36,
+          "F": 0.2,
+          "NO2+NO3": 41.91,
+          "EC_GEN": 878.32,
+          "HAR_Total": 531.2,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 107.96,
+          "TDS": 1331.22,
+          "F": 0.2,
+          "NO2+NO3": 44.27,
+          "EC_GEN": 796.88,
+          "HAR_Total": 561.07,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 85.77,
+          "TDS": 1508.38,
+          "F": 0.2,
+          "NO2+NO3": 50.16,
+          "EC_GEN": 593.3,
+          "HAR_Total": 635.73,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21057": {
+      "village": "Panamooppanpatti",
+      "taluk": "Usilampatti",
+      "lat": 10.137222,
+      "lon": 78.3625,
+      "forecasts": {
+        "2026": {
+          "GWQI": 139.87,
+          "TDS": 878.62,
+          "F": 0.81,
+          "NO2+NO3": 14.88,
+          "EC_GEN": 1575.75,
+          "HAR_Total": 325.88,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 138.67,
+          "TDS": 804.07,
+          "F": 0.85,
+          "NO2+NO3": 15.77,
+          "EC_GEN": 1442.05,
+          "HAR_Total": 298.23,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 137.47,
+          "TDS": 729.52,
+          "F": 0.9,
+          "NO2+NO3": 16.66,
+          "EC_GEN": 1308.35,
+          "HAR_Total": 270.57,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 134.47,
+          "TDS": 543.15,
+          "F": 1.02,
+          "NO2+NO3": 18.87,
+          "EC_GEN": 974.1,
+          "HAR_Total": 201.45,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21076": {
+      "village": "Vayalur",
+      "taluk": "Madurai North",
+      "lat": 10.018333,
+      "lon": 78.053889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 69.26,
+          "TDS": 417.12,
+          "F": 1.27,
+          "NO2+NO3": 2.48,
+          "EC_GEN": 490.88,
+          "HAR_Total": 252.22,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 63.39,
+          "TDS": 381.73,
+          "F": 1.34,
+          "NO2+NO3": 2.26,
+          "EC_GEN": 449.22,
+          "HAR_Total": 243.11,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 57.51,
+          "TDS": 346.34,
+          "F": 1.42,
+          "NO2+NO3": 2.05,
+          "EC_GEN": 407.57,
+          "HAR_Total": 234.0,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 42.82,
+          "TDS": 257.86,
+          "F": 1.61,
+          "NO2+NO3": 1.53,
+          "EC_GEN": 303.45,
+          "HAR_Total": 211.22,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21079": {
+      "village": "Rajakkur",
+      "taluk": "Madurai North",
+      "lat": 9.928611,
+      "lon": 78.238333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 92.25,
+          "TDS": 808.04,
+          "F": 0.86,
+          "NO2+NO3": 1.63,
+          "EC_GEN": 1243.28,
+          "HAR_Total": 200.44,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 85.39,
+          "TDS": 763.82,
+          "F": 0.91,
+          "NO2+NO3": 1.56,
+          "EC_GEN": 1137.78,
+          "HAR_Total": 212.22,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 78.52,
+          "TDS": 719.6,
+          "F": 0.96,
+          "NO2+NO3": 1.48,
+          "EC_GEN": 1032.3,
+          "HAR_Total": 224.0,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 61.35,
+          "TDS": 609.04,
+          "F": 1.08,
+          "NO2+NO3": 1.29,
+          "EC_GEN": 768.57,
+          "HAR_Total": 253.44,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21080": {
+      "village": "Kalimangalam",
+      "taluk": "Madurai North",
+      "lat": 9.878333,
+      "lon": 78.238889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 289.35,
+          "TDS": 2375.38,
+          "F": 2.05,
+          "NO2+NO3": 6.76,
+          "EC_GEN": 3948.0,
+          "HAR_Total": 587.5,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 306.59,
+          "TDS": 2516.89,
+          "F": 2.17,
+          "NO2+NO3": 6.19,
+          "EC_GEN": 4183.2,
+          "HAR_Total": 622.5,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2030": {
+          "GWQI": 323.83,
+          "TDS": 2658.4,
+          "F": 2.3,
+          "NO2+NO3": 5.62,
+          "EC_GEN": 4418.4,
+          "HAR_Total": 657.5,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 366.92,
+          "TDS": 3012.18,
+          "F": 2.6,
+          "NO2+NO3": 4.18,
+          "EC_GEN": 5006.4,
+          "HAR_Total": 745.0,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "21052": {
+      "village": "Muthunayakkapuram",
+      "taluk": "Peraiyur",
+      "lat": 9.771389,
+      "lon": 77.812222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 95.31,
+          "TDS": 577.16,
+          "F": 0.66,
+          "NO2+NO3": 12.46,
+          "EC_GEN": 928.25,
+          "HAR_Total": 277.3,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 100.99,
+          "TDS": 611.54,
+          "F": 0.6,
+          "NO2+NO3": 13.2,
+          "EC_GEN": 983.55,
+          "HAR_Total": 293.82,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 106.66,
+          "TDS": 645.93,
+          "F": 0.55,
+          "NO2+NO3": 13.94,
+          "EC_GEN": 1038.85,
+          "HAR_Total": 310.34,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 120.86,
+          "TDS": 731.89,
+          "F": 0.41,
+          "NO2+NO3": 15.79,
+          "EC_GEN": 1177.1,
+          "HAR_Total": 351.64,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21084": {
+      "village": "Sakkilipatti",
+      "taluk": "Madurai South",
+      "lat": 9.901389,
+      "lon": 78.011111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 80.23,
+          "TDS": 503.91,
+          "F": 1.09,
+          "NO2+NO3": 7.09,
+          "EC_GEN": 729.3,
+          "HAR_Total": 264.0,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 73.42,
+          "TDS": 461.15,
+          "F": 1.16,
+          "NO2+NO3": 6.49,
+          "EC_GEN": 667.42,
+          "HAR_Total": 241.6,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 66.61,
+          "TDS": 418.4,
+          "F": 1.22,
+          "NO2+NO3": 5.89,
+          "EC_GEN": 605.54,
+          "HAR_Total": 219.2,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 49.6,
+          "TDS": 311.51,
+          "F": 1.38,
+          "NO2+NO3": 4.39,
+          "EC_GEN": 450.84,
+          "HAR_Total": 163.2,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501013": {
+      "village": "Veppaodappu",
+      "taluk": "Melur",
+      "lat": 9.917222,
+      "lon": 78.303889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 106.53,
+          "TDS": 746.01,
+          "F": 0.53,
+          "NO2+NO3": 9.41,
+          "EC_GEN": 1206.72,
+          "HAR_Total": 381.29,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 110.71,
+          "TDS": 790.45,
+          "F": 0.49,
+          "NO2+NO3": 8.73,
+          "EC_GEN": 1278.62,
+          "HAR_Total": 404.0,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 114.9,
+          "TDS": 834.89,
+          "F": 0.44,
+          "NO2+NO3": 8.05,
+          "EC_GEN": 1350.51,
+          "HAR_Total": 426.72,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 125.36,
+          "TDS": 946.0,
+          "F": 0.33,
+          "NO2+NO3": 6.35,
+          "EC_GEN": 1530.23,
+          "HAR_Total": 483.5,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501014": {
+      "village": "Ambalakkaranpatti",
+      "taluk": "Melur",
+      "lat": 9.972222,
+      "lon": 78.395,
+      "forecasts": {
+        "2026": {
+          "GWQI": 273.22,
+          "TDS": 2258.35,
+          "F": 0.75,
+          "NO2+NO3": 55.23,
+          "EC_GEN": 3818.75,
+          "HAR_Total": 951.75,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 289.5,
+          "TDS": 2392.89,
+          "F": 0.77,
+          "NO2+NO3": 58.52,
+          "EC_GEN": 4046.25,
+          "HAR_Total": 1008.45,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 305.78,
+          "TDS": 2527.43,
+          "F": 0.78,
+          "NO2+NO3": 61.8,
+          "EC_GEN": 4273.75,
+          "HAR_Total": 1065.15,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 346.47,
+          "TDS": 2863.78,
+          "F": 0.83,
+          "NO2+NO3": 70.03,
+          "EC_GEN": 4842.5,
+          "HAR_Total": 1206.9,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "501016": {
+      "village": "Navinipatti",
+      "taluk": "Melur",
+      "lat": 10.043889,
+      "lon": 78.362778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 106.09,
+          "TDS": 749.77,
+          "F": 0.38,
+          "NO2+NO3": 14.7,
+          "EC_GEN": 1217.3,
+          "HAR_Total": 271.48,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 110.73,
+          "TDS": 794.43,
+          "F": 0.36,
+          "NO2+NO3": 15.57,
+          "EC_GEN": 1289.82,
+          "HAR_Total": 257.87,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 115.37,
+          "TDS": 839.1,
+          "F": 0.35,
+          "NO2+NO3": 16.45,
+          "EC_GEN": 1362.34,
+          "HAR_Total": 244.26,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 126.98,
+          "TDS": 950.77,
+          "F": 0.31,
+          "NO2+NO3": 18.64,
+          "EC_GEN": 1543.64,
+          "HAR_Total": 210.24,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501018": {
+      "village": "Manappacheri",
+      "taluk": "Melur",
+      "lat": 10.217222,
+      "lon": 78.350278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 178.49,
+          "TDS": 1316.78,
+          "F": 1.13,
+          "NO2+NO3": 2.35,
+          "EC_GEN": 2428.33,
+          "HAR_Total": 496.67,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 189.12,
+          "TDS": 1395.23,
+          "F": 1.2,
+          "NO2+NO3": 2.49,
+          "EC_GEN": 2573.0,
+          "HAR_Total": 476.67,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 199.75,
+          "TDS": 1473.68,
+          "F": 1.27,
+          "NO2+NO3": 2.63,
+          "EC_GEN": 2717.67,
+          "HAR_Total": 456.67,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 226.34,
+          "TDS": 1669.79,
+          "F": 1.44,
+          "NO2+NO3": 2.98,
+          "EC_GEN": 3079.33,
+          "HAR_Total": 406.67,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83096": {
+      "village": "Thumbalapatti",
+      "taluk": "Melur",
+      "lat": 9.869444,
+      "lon": 77.776111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 118.39,
+          "TDS": 889.0,
+          "F": 0.61,
+          "NO2+NO3": 5.44,
+          "EC_GEN": 1435.85,
+          "HAR_Total": 301.78,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 122.27,
+          "TDS": 941.97,
+          "F": 0.64,
+          "NO2+NO3": 4.98,
+          "EC_GEN": 1521.39,
+          "HAR_Total": 302.69,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 126.14,
+          "TDS": 994.93,
+          "F": 0.66,
+          "NO2+NO3": 4.52,
+          "EC_GEN": 1606.93,
+          "HAR_Total": 303.6,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 135.82,
+          "TDS": 1127.33,
+          "F": 0.73,
+          "NO2+NO3": 3.37,
+          "EC_GEN": 1820.78,
+          "HAR_Total": 305.88,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21066": {
+      "village": "Attukulam",
+      "taluk": "Melur",
+      "lat": 10.0025,
+      "lon": 78.356667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 91.52,
+          "TDS": 661.32,
+          "F": 0.75,
+          "NO2+NO3": 13.53,
+          "EC_GEN": 882.75,
+          "HAR_Total": 307.73,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 83.76,
+          "TDS": 605.21,
+          "F": 0.77,
+          "NO2+NO3": 12.38,
+          "EC_GEN": 807.85,
+          "HAR_Total": 281.62,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 75.99,
+          "TDS": 549.1,
+          "F": 0.8,
+          "NO2+NO3": 11.23,
+          "EC_GEN": 732.95,
+          "HAR_Total": 255.5,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 56.58,
+          "TDS": 408.82,
+          "F": 0.86,
+          "NO2+NO3": 8.36,
+          "EC_GEN": 545.7,
+          "HAR_Total": 190.23,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21071": {
+      "village": "Pottapatty",
+      "taluk": "Melur",
+      "lat": 10.281944,
+      "lon": 78.370556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 77.69,
+          "TDS": 439.89,
+          "F": 1.2,
+          "NO2+NO3": 8.93,
+          "EC_GEN": 693.0,
+          "HAR_Total": 267.3,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 71.1,
+          "TDS": 402.57,
+          "F": 1.21,
+          "NO2+NO3": 9.46,
+          "EC_GEN": 634.2,
+          "HAR_Total": 244.62,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 64.51,
+          "TDS": 365.24,
+          "F": 1.21,
+          "NO2+NO3": 9.99,
+          "EC_GEN": 575.4,
+          "HAR_Total": 221.94,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 48.03,
+          "TDS": 271.93,
+          "F": 1.23,
+          "NO2+NO3": 11.32,
+          "EC_GEN": 428.4,
+          "HAR_Total": 165.24,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "501017": {
+      "village": "Keelaiyur",
+      "taluk": "Melur",
+      "lat": 10.047222,
+      "lon": 78.377778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 142.61,
+          "TDS": 1077.24,
+          "F": 0.66,
+          "NO2+NO3": 8.58,
+          "EC_GEN": 1786.0,
+          "HAR_Total": 458.84,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 151.11,
+          "TDS": 1141.42,
+          "F": 0.7,
+          "NO2+NO3": 7.85,
+          "EC_GEN": 1892.4,
+          "HAR_Total": 486.17,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 159.61,
+          "TDS": 1205.59,
+          "F": 0.74,
+          "NO2+NO3": 7.12,
+          "EC_GEN": 1998.8,
+          "HAR_Total": 513.51,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 180.85,
+          "TDS": 1366.03,
+          "F": 0.83,
+          "NO2+NO3": 5.3,
+          "EC_GEN": 2264.8,
+          "HAR_Total": 581.85,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501019": {
+      "village": "Kasampatti",
+      "taluk": "Melur",
+      "lat": 10.1525,
+      "lon": 78.299722,
+      "forecasts": {
+        "2026": {
+          "GWQI": 85.49,
+          "TDS": 558.73,
+          "F": 0.25,
+          "NO2+NO3": 14.64,
+          "EC_GEN": 934.77,
+          "HAR_Total": 344.44,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 78.98,
+          "TDS": 511.32,
+          "F": 0.23,
+          "NO2+NO3": 13.4,
+          "EC_GEN": 922.67,
+          "HAR_Total": 315.21,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 72.47,
+          "TDS": 463.92,
+          "F": 0.21,
+          "NO2+NO3": 12.16,
+          "EC_GEN": 910.58,
+          "HAR_Total": 285.99,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 56.19,
+          "TDS": 345.4,
+          "F": 0.2,
+          "NO2+NO3": 9.05,
+          "EC_GEN": 880.35,
+          "HAR_Total": 212.92,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "501020": {
+      "village": "Sennagarampatti",
+      "taluk": "Melur",
+      "lat": 10.080556,
+      "lon": 78.320278,
+      "forecasts": {
+        "2026": {
+          "GWQI": 90.4,
+          "TDS": 547.43,
+          "F": 0.41,
+          "NO2+NO3": 7.09,
+          "EC_GEN": 914.74,
+          "HAR_Total": 267.31,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 95.79,
+          "TDS": 580.05,
+          "F": 0.38,
+          "NO2+NO3": 6.49,
+          "EC_GEN": 969.23,
+          "HAR_Total": 283.24,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 101.17,
+          "TDS": 612.66,
+          "F": 0.34,
+          "NO2+NO3": 5.89,
+          "EC_GEN": 1023.73,
+          "HAR_Total": 299.16,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 114.64,
+          "TDS": 694.19,
+          "F": 0.26,
+          "NO2+NO3": 4.39,
+          "EC_GEN": 1159.97,
+          "HAR_Total": 338.98,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21046": {
+      "village": "Perungamanallur",
+      "taluk": "Peraiyur",
+      "lat": 9.7912,
+      "lon": 77.7731,
+      "forecasts": {
+        "2026": {
+          "GWQI": 95.6,
+          "TDS": 639.87,
+          "F": 1.8,
+          "NO2+NO3": 9.41,
+          "EC_GEN": 1006.5,
+          "HAR_Total": 191.4,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 89.32,
+          "TDS": 588.3,
+          "F": 1.91,
+          "NO2+NO3": 9.97,
+          "EC_GEN": 921.1,
+          "HAR_Total": 175.16,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 83.04,
+          "TDS": 536.73,
+          "F": 2.01,
+          "NO2+NO3": 10.53,
+          "EC_GEN": 835.7,
+          "HAR_Total": 158.92,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 67.34,
+          "TDS": 407.8,
+          "F": 2.28,
+          "NO2+NO3": 11.93,
+          "EC_GEN": 622.2,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "21063": {
+      "village": "Erukkalanatham",
+      "taluk": "Madurai North",
+      "lat": 9.957,
+      "lon": 78.083,
+      "forecasts": {
+        "2026": {
+          "GWQI": 64.42,
+          "TDS": 431.29,
+          "F": 0.71,
+          "NO2+NO3": 2.97,
+          "EC_GEN": 599.77,
+          "HAR_Total": 240.5,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 58.95,
+          "TDS": 427.0,
+          "F": 0.65,
+          "NO2+NO3": 2.72,
+          "EC_GEN": 548.88,
+          "HAR_Total": 235.5,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 53.49,
+          "TDS": 422.71,
+          "F": 0.59,
+          "NO2+NO3": 2.47,
+          "EC_GEN": 498.0,
+          "HAR_Total": 230.5,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 39.82,
+          "TDS": 412.0,
+          "F": 0.44,
+          "NO2+NO3": 1.84,
+          "EC_GEN": 370.77,
+          "HAR_Total": 218.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "21077": {
+      "village": "Elangiyendal",
+      "taluk": "Madurai North",
+      "lat": 9.976,
+      "lon": 78.163,
+      "forecasts": {
+        "2026": {
+          "GWQI": 131.77,
+          "TDS": 955.39,
+          "F": 0.97,
+          "NO2+NO3": 10.81,
+          "EC_GEN": 971.85,
+          "HAR_Total": 332.52,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 139.08,
+          "TDS": 1010.1,
+          "F": 0.88,
+          "NO2+NO3": 11.45,
+          "EC_GEN": 889.39,
+          "HAR_Total": 352.34,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 146.38,
+          "TDS": 1064.81,
+          "F": 0.8,
+          "NO2+NO3": 12.1,
+          "EC_GEN": 806.93,
+          "HAR_Total": 372.14,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 164.65,
+          "TDS": 1201.6,
+          "F": 0.6,
+          "NO2+NO3": 13.71,
+          "EC_GEN": 600.78,
+          "HAR_Total": 421.67,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501009": {
+      "village": "Maravankulam",
+      "taluk": "Thirumangalam",
+      "lat": 9.831389,
+      "lon": 78.003056,
+      "forecasts": {
+        "2026": {
+          "GWQI": 146.16,
+          "TDS": 1021.66,
+          "F": 0.51,
+          "NO2+NO3": 13.22,
+          "EC_GEN": 1662.62,
+          "HAR_Total": 456.78,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 154.87,
+          "TDS": 1082.53,
+          "F": 0.47,
+          "NO2+NO3": 14.01,
+          "EC_GEN": 1761.68,
+          "HAR_Total": 483.99,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 163.57,
+          "TDS": 1143.39,
+          "F": 0.43,
+          "NO2+NO3": 14.79,
+          "EC_GEN": 1860.72,
+          "HAR_Total": 511.21,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 185.34,
+          "TDS": 1295.56,
+          "F": 0.32,
+          "NO2+NO3": 16.76,
+          "EC_GEN": 2108.35,
+          "HAR_Total": 579.24,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501011": {
+      "village": "Melakuyilkudi",
+      "taluk": "Madurai South",
+      "lat": 9.9225,
+      "lon": 78.036111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 151.27,
+          "TDS": 1128.47,
+          "F": 1.08,
+          "NO2+NO3": 9.17,
+          "EC_GEN": 1813.73,
+          "HAR_Total": 383.64,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 160.28,
+          "TDS": 1195.7,
+          "F": 0.99,
+          "NO2+NO3": 9.72,
+          "EC_GEN": 1921.78,
+          "HAR_Total": 406.49,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 169.29,
+          "TDS": 1262.93,
+          "F": 0.9,
+          "NO2+NO3": 10.26,
+          "EC_GEN": 2029.83,
+          "HAR_Total": 429.35,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 191.82,
+          "TDS": 1431.0,
+          "F": 0.67,
+          "NO2+NO3": 11.63,
+          "EC_GEN": 2299.96,
+          "HAR_Total": 486.49,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "501060": {
+      "village": "Thiruvalavoinallur",
+      "taluk": "Vadipatti",
+      "lat": 10.008056,
+      "lon": 78.008611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 144.23,
+          "TDS": 1030.61,
+          "F": 0.64,
+          "NO2+NO3": 13.2,
+          "EC_GEN": 1733.12,
+          "HAR_Total": 443.24,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 152.82,
+          "TDS": 1092.0,
+          "F": 0.58,
+          "NO2+NO3": 13.99,
+          "EC_GEN": 1836.38,
+          "HAR_Total": 469.64,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 161.41,
+          "TDS": 1153.4,
+          "F": 0.53,
+          "NO2+NO3": 14.77,
+          "EC_GEN": 1939.62,
+          "HAR_Total": 496.05,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 182.89,
+          "TDS": 1306.9,
+          "F": 0.39,
+          "NO2+NO3": 16.74,
+          "EC_GEN": 2197.75,
+          "HAR_Total": 562.06,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "21009A": {
+      "village": "Utchapatti",
+      "taluk": "Thirumangalam",
+      "lat": 9.856667,
+      "lon": 78.009444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 203.9,
+          "TDS": 1740.18,
+          "F": 0.6,
+          "NO2+NO3": 32.43,
+          "EC_GEN": 3017.4,
+          "HAR_Total": 874.2,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 208.65,
+          "TDS": 1843.85,
+          "F": 0.55,
+          "NO2+NO3": 31.0,
+          "EC_GEN": 3197.16,
+          "HAR_Total": 926.28,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 213.4,
+          "TDS": 1947.52,
+          "F": 0.49,
+          "NO2+NO3": 29.57,
+          "EC_GEN": 3376.92,
+          "HAR_Total": 978.36,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 225.27,
+          "TDS": 2206.69,
+          "F": 0.37,
+          "NO2+NO3": 26.0,
+          "EC_GEN": 3826.32,
+          "HAR_Total": 1108.56,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "83006 A": {
+      "village": "Santhangudi",
+      "taluk": "Thirumangalam",
+      "lat": 9.84,
+      "lon": 77.937778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 268.18,
+          "TDS": 2118.23,
+          "F": 0.71,
+          "NO2+NO3": 37.39,
+          "EC_GEN": 3574.94,
+          "HAR_Total": 545.68,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 284.16,
+          "TDS": 2244.42,
+          "F": 0.65,
+          "NO2+NO3": 36.84,
+          "EC_GEN": 3787.91,
+          "HAR_Total": 532.95,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 300.14,
+          "TDS": 2370.62,
+          "F": 0.59,
+          "NO2+NO3": 36.3,
+          "EC_GEN": 4000.89,
+          "HAR_Total": 520.23,
+          "GWQI_Class": "Unsuitable"
+        },
+        "2035": {
+          "GWQI": 340.08,
+          "TDS": 2686.1,
+          "F": 0.44,
+          "NO2+NO3": 34.93,
+          "EC_GEN": 4533.33,
+          "HAR_Total": 488.41,
+          "GWQI_Class": "Unsuitable"
+        }
+      }
+    },
+    "83080 A": {
+      "village": "Nagari",
+      "taluk": "Vadipatti",
+      "lat": 10.019444,
+      "lon": 78.016389,
+      "forecasts": {
+        "2026": {
+          "GWQI": 153.23,
+          "TDS": 1073.95,
+          "F": 0.85,
+          "NO2+NO3": 3.13,
+          "EC_GEN": 1919.17,
+          "HAR_Total": 338.79,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 162.36,
+          "TDS": 1137.93,
+          "F": 0.9,
+          "NO2+NO3": 3.32,
+          "EC_GEN": 2033.5,
+          "HAR_Total": 358.97,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 171.49,
+          "TDS": 1201.91,
+          "F": 0.95,
+          "NO2+NO3": 3.51,
+          "EC_GEN": 2147.83,
+          "HAR_Total": 379.16,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 194.31,
+          "TDS": 1361.86,
+          "F": 1.07,
+          "NO2+NO3": 3.97,
+          "EC_GEN": 2433.67,
+          "HAR_Total": 429.62,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "Ex-21040": {
+      "village": "T.kallupatti",
+      "taluk": "Peraiyur",
+      "lat": 9.715833,
+      "lon": 77.859444,
+      "forecasts": {
+        "2026": {
+          "GWQI": 62.23,
+          "TDS": 313.96,
+          "F": 0.76,
+          "NO2+NO3": 4.7,
+          "EC_GEN": 554.29,
+          "HAR_Total": 257.56,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 56.95,
+          "TDS": 312.1,
+          "F": 0.7,
+          "NO2+NO3": 4.98,
+          "EC_GEN": 540.0,
+          "HAR_Total": 235.71,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 51.67,
+          "TDS": 310.24,
+          "F": 0.63,
+          "NO2+NO3": 5.26,
+          "EC_GEN": 525.71,
+          "HAR_Total": 213.86,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 38.47,
+          "TDS": 305.6,
+          "F": 0.47,
+          "NO2+NO3": 5.96,
+          "EC_GEN": 490.0,
+          "HAR_Total": 159.22,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "Ex-21041": {
+      "village": "Sedapatti",
+      "taluk": "Peraiyur",
+      "lat": 9.826389,
+      "lon": 77.8,
+      "forecasts": {
+        "2026": {
+          "GWQI": 139.32,
+          "TDS": 973.61,
+          "F": 0.88,
+          "NO2+NO3": 26.32,
+          "EC_GEN": 1654.4,
+          "HAR_Total": 378.35,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 147.62,
+          "TDS": 1031.61,
+          "F": 0.81,
+          "NO2+NO3": 27.89,
+          "EC_GEN": 1752.96,
+          "HAR_Total": 400.89,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 155.92,
+          "TDS": 1089.61,
+          "F": 0.73,
+          "NO2+NO3": 29.46,
+          "EC_GEN": 1851.52,
+          "HAR_Total": 423.43,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 176.68,
+          "TDS": 1234.61,
+          "F": 0.55,
+          "NO2+NO3": 33.38,
+          "EC_GEN": 2097.92,
+          "HAR_Total": 479.78,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "HP 21074": {
+      "village": "Chettikulam",
+      "taluk": "Madurai North",
+      "lat": 9.995,
+      "lon": 78.146944,
+      "forecasts": {
+        "2026": {
+          "GWQI": 195.39,
+          "TDS": 1450.42,
+          "F": 0.51,
+          "NO2+NO3": 20.79,
+          "EC_GEN": 2617.9,
+          "HAR_Total": 561.57,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 205.36,
+          "TDS": 1536.83,
+          "F": 0.47,
+          "NO2+NO3": 19.03,
+          "EC_GEN": 2773.86,
+          "HAR_Total": 563.0,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 215.34,
+          "TDS": 1623.24,
+          "F": 0.42,
+          "NO2+NO3": 17.26,
+          "EC_GEN": 2929.82,
+          "HAR_Total": 564.43,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 240.29,
+          "TDS": 1839.26,
+          "F": 0.32,
+          "NO2+NO3": 12.85,
+          "EC_GEN": 3319.72,
+          "HAR_Total": 568.0,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "HP 21076": {
+      "village": "Vayalur",
+      "taluk": "Madurai North",
+      "lat": 10.018333,
+      "lon": 78.053889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 58.54,
+          "TDS": 304.92,
+          "F": 0.64,
+          "NO2+NO3": 1.82,
+          "EC_GEN": 585.75,
+          "HAR_Total": 169.12,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 53.57,
+          "TDS": 279.05,
+          "F": 0.59,
+          "NO2+NO3": 1.67,
+          "EC_GEN": 536.05,
+          "HAR_Total": 154.77,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 48.6,
+          "TDS": 253.18,
+          "F": 0.53,
+          "NO2+NO3": 1.51,
+          "EC_GEN": 486.35,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 36.19,
+          "TDS": 188.5,
+          "F": 0.4,
+          "NO2+NO3": 1.13,
+          "EC_GEN": 362.1,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "HP 21077": {
+      "village": "Elanthgiyendal",
+      "taluk": "Madurai North",
+      "lat": 9.949722,
+      "lon": 78.230833,
+      "forecasts": {
+        "2026": {
+          "GWQI": 76.75,
+          "TDS": 462.33,
+          "F": 0.81,
+          "NO2+NO3": 3.06,
+          "EC_GEN": 829.95,
+          "HAR_Total": 195.0,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 72.37,
+          "TDS": 423.1,
+          "F": 0.74,
+          "NO2+NO3": 3.24,
+          "EC_GEN": 759.53,
+          "HAR_Total": 195.0,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 67.98,
+          "TDS": 383.87,
+          "F": 0.67,
+          "NO2+NO3": 3.42,
+          "EC_GEN": 689.11,
+          "HAR_Total": 195.0,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 57.03,
+          "TDS": 285.8,
+          "F": 0.5,
+          "NO2+NO3": 3.87,
+          "EC_GEN": 513.06,
+          "HAR_Total": 195.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "HP 21078": {
+      "village": "Kalikappan",
+      "taluk": "Madurai North",
+      "lat": 9.939444,
+      "lon": 78.193611,
+      "forecasts": {
+        "2026": {
+          "GWQI": 110.6,
+          "TDS": 689.02,
+          "F": 0.52,
+          "NO2+NO3": 11.05,
+          "EC_GEN": 1243.15,
+          "HAR_Total": 346.62,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 117.18,
+          "TDS": 730.07,
+          "F": 0.48,
+          "NO2+NO3": 11.7,
+          "EC_GEN": 1317.21,
+          "HAR_Total": 367.27,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 123.77,
+          "TDS": 771.12,
+          "F": 0.43,
+          "NO2+NO3": 12.36,
+          "EC_GEN": 1391.27,
+          "HAR_Total": 387.93,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 140.24,
+          "TDS": 873.74,
+          "F": 0.32,
+          "NO2+NO3": 14.01,
+          "EC_GEN": 1576.42,
+          "HAR_Total": 439.55,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "HP 21079": {
+      "village": "Rajakkoor",
+      "taluk": "Madurai North",
+      "lat": 9.928611,
+      "lon": 78.238333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 89.52,
+          "TDS": 714.62,
+          "F": 0.56,
+          "NO2+NO3": 1.84,
+          "EC_GEN": 1257.3,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 81.93,
+          "TDS": 653.98,
+          "F": 0.51,
+          "NO2+NO3": 1.68,
+          "EC_GEN": 1150.62,
+          "HAR_Total": 150.65,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 74.33,
+          "TDS": 593.35,
+          "F": 0.47,
+          "NO2+NO3": 1.53,
+          "EC_GEN": 1043.94,
+          "HAR_Total": 159.12,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 55.34,
+          "TDS": 441.76,
+          "F": 0.35,
+          "NO2+NO3": 1.14,
+          "EC_GEN": 777.24,
+          "HAR_Total": 180.29,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "HP 21080": {
+      "village": "Kalimangalam",
+      "taluk": "Madurai North",
+      "lat": 9.878333,
+      "lon": 78.238889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 217.34,
+          "TDS": 2117.61,
+          "F": 1.51,
+          "NO2+NO3": 1.65,
+          "EC_GEN": 3575.55,
+          "HAR_Total": 163.14,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 198.9,
+          "TDS": 1937.93,
+          "F": 1.38,
+          "NO2+NO3": 1.51,
+          "EC_GEN": 3272.17,
+          "HAR_Total": 166.0,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 180.46,
+          "TDS": 1758.26,
+          "F": 1.25,
+          "NO2+NO3": 1.37,
+          "EC_GEN": 2968.79,
+          "HAR_Total": 168.86,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 134.36,
+          "TDS": 1309.07,
+          "F": 0.93,
+          "NO2+NO3": 1.02,
+          "EC_GEN": 2210.34,
+          "HAR_Total": 176.0,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "HP 21081": {
+      "village": "Elamanur",
+      "taluk": "Madurai North",
+      "lat": 9.900556,
+      "lon": 78.210833,
+      "forecasts": {
+        "2026": {
+          "GWQI": 175.13,
+          "TDS": 1450.35,
+          "F": 0.46,
+          "NO2+NO3": 13.04,
+          "EC_GEN": 2562.45,
+          "HAR_Total": 641.85,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 160.27,
+          "TDS": 1327.29,
+          "F": 0.49,
+          "NO2+NO3": 11.93,
+          "EC_GEN": 2345.03,
+          "HAR_Total": 587.39,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 145.41,
+          "TDS": 1204.23,
+          "F": 0.52,
+          "NO2+NO3": 10.82,
+          "EC_GEN": 2127.61,
+          "HAR_Total": 532.93,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 108.26,
+          "TDS": 896.58,
+          "F": 0.59,
+          "NO2+NO3": 8.06,
+          "EC_GEN": 1584.06,
+          "HAR_Total": 396.78,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "HP 21082": {
+      "village": "Nallur",
+      "taluk": "Madurai South",
+      "lat": 9.788333,
+      "lon": 78.133333,
+      "forecasts": {
+        "2026": {
+          "GWQI": 88.32,
+          "TDS": 526.4,
+          "F": 0.28,
+          "NO2+NO3": 8.46,
+          "EC_GEN": 958.8,
+          "HAR_Total": 271.86,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 93.59,
+          "TDS": 557.76,
+          "F": 0.26,
+          "NO2+NO3": 8.96,
+          "EC_GEN": 1015.92,
+          "HAR_Total": 269.0,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 98.85,
+          "TDS": 589.12,
+          "F": 0.24,
+          "NO2+NO3": 9.47,
+          "EC_GEN": 1073.04,
+          "HAR_Total": 266.14,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 112.0,
+          "TDS": 667.52,
+          "F": 0.2,
+          "NO2+NO3": 10.73,
+          "EC_GEN": 1215.84,
+          "HAR_Total": 259.0,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "HP 21083": {
+      "village": "Nilaiyur",
+      "taluk": "Madurai South",
+      "lat": 9.855556,
+      "lon": 78.059167,
+      "forecasts": {
+        "2026": {
+          "GWQI": 233.45,
+          "TDS": 1889.16,
+          "F": 0.47,
+          "NO2+NO3": 19.51,
+          "EC_GEN": 3292.35,
+          "HAR_Total": 681.5,
+          "GWQI_Class": "Very Poor"
+        },
+        "2028": {
+          "GWQI": 247.35,
+          "TDS": 2001.71,
+          "F": 0.43,
+          "NO2+NO3": 20.67,
+          "EC_GEN": 3488.49,
+          "HAR_Total": 722.1,
+          "GWQI_Class": "Very Poor"
+        },
+        "2030": {
+          "GWQI": 261.26,
+          "TDS": 2114.26,
+          "F": 0.39,
+          "NO2+NO3": 21.83,
+          "EC_GEN": 3684.63,
+          "HAR_Total": 762.7,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 296.03,
+          "TDS": 2395.62,
+          "F": 0.29,
+          "NO2+NO3": 24.73,
+          "EC_GEN": 4174.98,
+          "HAR_Total": 864.2,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "HP 21084": {
+      "village": "Sakkilipatti",
+      "taluk": "Madurai South",
+      "lat": 9.901389,
+      "lon": 78.011111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 106.72,
+          "TDS": 857.53,
+          "F": 0.67,
+          "NO2+NO3": 5.64,
+          "EC_GEN": 1472.14,
+          "HAR_Total": 318.79,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 97.67,
+          "TDS": 807.1,
+          "F": 0.61,
+          "NO2+NO3": 5.98,
+          "EC_GEN": 1365.0,
+          "HAR_Total": 299.5,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 88.61,
+          "TDS": 756.67,
+          "F": 0.56,
+          "NO2+NO3": 6.31,
+          "EC_GEN": 1257.86,
+          "HAR_Total": 280.21,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 65.97,
+          "TDS": 630.6,
+          "F": 0.41,
+          "NO2+NO3": 7.15,
+          "EC_GEN": 990.0,
+          "HAR_Total": 232.0,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "MWS21046": {
+      "village": "Perunkamanallur",
+      "taluk": "Peraiyur",
+      "lat": 9.862778,
+      "lon": 77.818056,
+      "forecasts": {
+        "2026": {
+          "GWQI": 151.29,
+          "TDS": 1042.22,
+          "F": 1.27,
+          "NO2+NO3": 10.39,
+          "EC_GEN": 1842.4,
+          "HAR_Total": 392.45,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 160.3,
+          "TDS": 1104.32,
+          "F": 1.16,
+          "NO2+NO3": 9.51,
+          "EC_GEN": 1952.16,
+          "HAR_Total": 415.83,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 169.31,
+          "TDS": 1166.4,
+          "F": 1.05,
+          "NO2+NO3": 8.63,
+          "EC_GEN": 2061.92,
+          "HAR_Total": 439.21,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 191.84,
+          "TDS": 1321.63,
+          "F": 0.78,
+          "NO2+NO3": 6.43,
+          "EC_GEN": 2336.32,
+          "HAR_Total": 497.66,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21048": {
+      "village": "Pappinaickenpatti",
+      "taluk": "Peraiyur",
+      "lat": 9.820278,
+      "lon": 77.711111,
+      "forecasts": {
+        "2026": {
+          "GWQI": 186.5,
+          "TDS": 1356.89,
+          "F": 0.29,
+          "NO2+NO3": 12.22,
+          "EC_GEN": 2314.75,
+          "HAR_Total": 415.95,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 197.61,
+          "TDS": 1437.73,
+          "F": 0.27,
+          "NO2+NO3": 12.95,
+          "EC_GEN": 2452.65,
+          "HAR_Total": 440.73,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 208.72,
+          "TDS": 1518.56,
+          "F": 0.24,
+          "NO2+NO3": 13.68,
+          "EC_GEN": 2590.55,
+          "HAR_Total": 465.51,
+          "GWQI_Class": "Very Poor"
+        },
+        "2035": {
+          "GWQI": 236.49,
+          "TDS": 1720.65,
+          "F": 0.2,
+          "NO2+NO3": 15.5,
+          "EC_GEN": 2935.3,
+          "HAR_Total": 527.46,
+          "GWQI_Class": "Very Poor"
+        }
+      }
+    },
+    "MWS21050": {
+      "village": "Mathipanur",
+      "taluk": "Thirumangalam",
+      "lat": 9.795556,
+      "lon": 77.8375,
+      "forecasts": {
+        "2026": {
+          "GWQI": 148.28,
+          "TDS": 1100.51,
+          "F": 0.37,
+          "NO2+NO3": 14.8,
+          "EC_GEN": 1941.1,
+          "HAR_Total": 487.62,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 157.12,
+          "TDS": 1166.07,
+          "F": 0.36,
+          "NO2+NO3": 15.69,
+          "EC_GEN": 2056.74,
+          "HAR_Total": 516.67,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 165.95,
+          "TDS": 1231.63,
+          "F": 0.34,
+          "NO2+NO3": 16.57,
+          "EC_GEN": 2172.38,
+          "HAR_Total": 545.73,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 188.04,
+          "TDS": 1395.53,
+          "F": 0.3,
+          "NO2+NO3": 18.77,
+          "EC_GEN": 2461.48,
+          "HAR_Total": 618.35,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21052": {
+      "village": "Muthunagayapuram",
+      "taluk": "Peraiyur",
+      "lat": 9.771389,
+      "lon": 77.812222,
+      "forecasts": {
+        "2026": {
+          "GWQI": 157.19,
+          "TDS": 1105.2,
+          "F": 0.74,
+          "NO2+NO3": 26.79,
+          "EC_GEN": 1931.7,
+          "HAR_Total": 384.23,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 166.56,
+          "TDS": 1171.05,
+          "F": 0.79,
+          "NO2+NO3": 28.39,
+          "EC_GEN": 2046.78,
+          "HAR_Total": 407.12,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 175.92,
+          "TDS": 1236.89,
+          "F": 0.83,
+          "NO2+NO3": 29.98,
+          "EC_GEN": 2161.86,
+          "HAR_Total": 430.0,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 199.34,
+          "TDS": 1401.49,
+          "F": 0.94,
+          "NO2+NO3": 33.97,
+          "EC_GEN": 2449.56,
+          "HAR_Total": 487.23,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21056": {
+      "village": "Meikkilarpatti",
+      "taluk": "Usilampatti",
+      "lat": 9.980556,
+      "lon": 77.802778,
+      "forecasts": {
+        "2026": {
+          "GWQI": 104.97,
+          "TDS": 667.1,
+          "F": 0.51,
+          "NO2+NO3": 9.57,
+          "EC_GEN": 1176.45,
+          "HAR_Total": 360.52,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 96.07,
+          "TDS": 610.49,
+          "F": 0.54,
+          "NO2+NO3": 8.76,
+          "EC_GEN": 1076.63,
+          "HAR_Total": 329.94,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 87.16,
+          "TDS": 553.89,
+          "F": 0.57,
+          "NO2+NO3": 7.95,
+          "EC_GEN": 976.81,
+          "HAR_Total": 299.34,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 64.89,
+          "TDS": 412.39,
+          "F": 0.64,
+          "NO2+NO3": 5.92,
+          "EC_GEN": 727.26,
+          "HAR_Total": 222.87,
+          "GWQI_Class": "Good"
+        }
+      }
+    },
+    "MWS21059": {
+      "village": "Kaupatti",
+      "taluk": "Vadipatti",
+      "lat": 10.022222,
+      "lon": 77.92,
+      "forecasts": {
+        "2026": {
+          "GWQI": 154.3,
+          "TDS": 1091.11,
+          "F": 0.75,
+          "NO2+NO3": 14.84,
+          "EC_GEN": 1896.45,
+          "HAR_Total": 447.68,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 163.49,
+          "TDS": 1156.11,
+          "F": 0.69,
+          "NO2+NO3": 14.7,
+          "EC_GEN": 2009.43,
+          "HAR_Total": 474.35,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 172.69,
+          "TDS": 1221.11,
+          "F": 0.63,
+          "NO2+NO3": 14.56,
+          "EC_GEN": 2122.41,
+          "HAR_Total": 501.01,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 195.67,
+          "TDS": 1383.61,
+          "F": 0.47,
+          "NO2+NO3": 14.2,
+          "EC_GEN": 2404.86,
+          "HAR_Total": 567.69,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21061": {
+      "village": "Thathampatti",
+      "taluk": "Vadipatti",
+      "lat": 10.022222,
+      "lon": 78.015556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 99.88,
+          "TDS": 594.08,
+          "F": 0.35,
+          "NO2+NO3": 3.84,
+          "EC_GEN": 1069.25,
+          "HAR_Total": 298.45,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 105.83,
+          "TDS": 629.47,
+          "F": 0.32,
+          "NO2+NO3": 3.7,
+          "EC_GEN": 1132.95,
+          "HAR_Total": 316.23,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 111.78,
+          "TDS": 664.86,
+          "F": 0.29,
+          "NO2+NO3": 3.56,
+          "EC_GEN": 1196.65,
+          "HAR_Total": 334.01,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 126.65,
+          "TDS": 753.34,
+          "F": 0.22,
+          "NO2+NO3": 3.2,
+          "EC_GEN": 1355.9,
+          "HAR_Total": 378.46,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21062": {
+      "village": "PeriyaIanthaikulam",
+      "taluk": "Vadipatti",
+      "lat": 10.068333,
+      "lon": 78.051389,
+      "forecasts": {
+        "2026": {
+          "GWQI": 67.67,
+          "TDS": 512.53,
+          "F": 0.71,
+          "NO2+NO3": 5.4,
+          "EC_GEN": 896.14,
+          "HAR_Total": 214.5,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 61.93,
+          "TDS": 543.07,
+          "F": 0.65,
+          "NO2+NO3": 5.73,
+          "EC_GEN": 929.0,
+          "HAR_Total": 196.3,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 56.18,
+          "TDS": 573.6,
+          "F": 0.59,
+          "NO2+NO3": 6.05,
+          "EC_GEN": 961.86,
+          "HAR_Total": 178.1,
+          "GWQI_Class": "Good"
+        },
+        "2035": {
+          "GWQI": 41.83,
+          "TDS": 649.94,
+          "F": 0.45,
+          "NO2+NO3": 6.85,
+          "EC_GEN": 1044.0,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "MWS21063": {
+      "village": "Erukalnatham",
+      "taluk": "Madurai North",
+      "lat": 10.014722,
+      "lon": 78.173889,
+      "forecasts": {
+        "2026": {
+          "GWQI": 115.71,
+          "TDS": 720.75,
+          "F": 0.51,
+          "NO2+NO3": 10.81,
+          "EC_GEN": 1304.25,
+          "HAR_Total": 401.85,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 122.61,
+          "TDS": 763.68,
+          "F": 0.47,
+          "NO2+NO3": 11.45,
+          "EC_GEN": 1381.95,
+          "HAR_Total": 425.79,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 129.5,
+          "TDS": 806.62,
+          "F": 0.42,
+          "NO2+NO3": 12.1,
+          "EC_GEN": 1459.65,
+          "HAR_Total": 449.73,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 146.73,
+          "TDS": 913.97,
+          "F": 0.32,
+          "NO2+NO3": 13.71,
+          "EC_GEN": 1653.9,
+          "HAR_Total": 509.58,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21065": {
+      "village": "Mangulam",
+      "taluk": "Madurai North",
+      "lat": 10.049167,
+      "lon": 78.25,
+      "forecasts": {
+        "2026": {
+          "GWQI": 56.42,
+          "TDS": 314.99,
+          "F": 0.52,
+          "NO2+NO3": 1.99,
+          "EC_GEN": 569.25,
+          "HAR_Total": 166.36,
+          "GWQI_Class": "Good"
+        },
+        "2028": {
+          "GWQI": 51.63,
+          "TDS": 288.26,
+          "F": 0.48,
+          "NO2+NO3": 1.82,
+          "EC_GEN": 520.95,
+          "HAR_Total": 158.5,
+          "GWQI_Class": "Good"
+        },
+        "2030": {
+          "GWQI": 46.84,
+          "TDS": 261.53,
+          "F": 0.43,
+          "NO2+NO3": 1.65,
+          "EC_GEN": 472.65,
+          "HAR_Total": 150.64,
+          "GWQI_Class": "Excellent"
+        },
+        "2035": {
+          "GWQI": 35.0,
+          "TDS": 194.72,
+          "F": 0.32,
+          "NO2+NO3": 1.23,
+          "EC_GEN": 351.9,
+          "HAR_Total": 150.0,
+          "GWQI_Class": "Excellent"
+        }
+      }
+    },
+    "Ex-21071": {
+      "village": "Pottapatty",
+      "taluk": "Melur",
+      "lat": 10.281944,
+      "lon": 78.370556,
+      "forecasts": {
+        "2026": {
+          "GWQI": 126.52,
+          "TDS": 804.29,
+          "F": 0.87,
+          "NO2+NO3": 9.07,
+          "EC_GEN": 1430.56,
+          "HAR_Total": 421.53,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 134.05,
+          "TDS": 852.2,
+          "F": 0.8,
+          "NO2+NO3": 8.3,
+          "EC_GEN": 1515.79,
+          "HAR_Total": 446.64,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 141.59,
+          "TDS": 900.12,
+          "F": 0.72,
+          "NO2+NO3": 7.54,
+          "EC_GEN": 1601.01,
+          "HAR_Total": 471.76,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 160.43,
+          "TDS": 1019.9,
+          "F": 0.54,
+          "NO2+NO3": 5.61,
+          "EC_GEN": 1814.08,
+          "HAR_Total": 534.54,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21066": {
+      "village": "Attukulam",
+      "taluk": "Melur",
+      "lat": 10.0025,
+      "lon": 78.356667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 102.08,
+          "TDS": 660.82,
+          "F": 0.45,
+          "NO2+NO3": 10.36,
+          "EC_GEN": 1175.0,
+          "HAR_Total": 314.9,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 108.16,
+          "TDS": 700.19,
+          "F": 0.41,
+          "NO2+NO3": 10.98,
+          "EC_GEN": 1245.0,
+          "HAR_Total": 333.66,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 114.24,
+          "TDS": 739.56,
+          "F": 0.37,
+          "NO2+NO3": 11.6,
+          "EC_GEN": 1315.0,
+          "HAR_Total": 352.42,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 129.44,
+          "TDS": 837.98,
+          "F": 0.28,
+          "NO2+NO3": 13.14,
+          "EC_GEN": 1490.0,
+          "HAR_Total": 399.32,
+          "GWQI_Class": "Poor"
+        }
+      }
+    },
+    "MWS21043": {
+      "village": "Pullaneri",
+      "taluk": "Usilampatti",
+      "lat": 9.9325,
+      "lon": 77.946667,
+      "forecasts": {
+        "2026": {
+          "GWQI": 182.32,
+          "TDS": 1514.7,
+          "F": 0.33,
+          "NO2+NO3": 7.05,
+          "EC_GEN": 2670.25,
+          "HAR_Total": 715.0,
+          "GWQI_Class": "Poor"
+        },
+        "2028": {
+          "GWQI": 166.85,
+          "TDS": 1386.18,
+          "F": 0.3,
+          "NO2+NO3": 7.47,
+          "EC_GEN": 2443.68,
+          "HAR_Total": 654.33,
+          "GWQI_Class": "Poor"
+        },
+        "2030": {
+          "GWQI": 151.38,
+          "TDS": 1257.66,
+          "F": 0.27,
+          "NO2+NO3": 7.89,
+          "EC_GEN": 2217.12,
+          "HAR_Total": 593.67,
+          "GWQI_Class": "Poor"
+        },
+        "2035": {
+          "GWQI": 112.71,
+          "TDS": 936.36,
+          "F": 0.2,
+          "NO2+NO3": 8.94,
+          "EC_GEN": 1650.7,
+          "HAR_Total": 442.0,
+          "GWQI_Class": "Poor"
+        }
+      }
+    }
+  }
+}

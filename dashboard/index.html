@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madurai Groundwater Quality Spatial Intelligence &amp; Multi-Year ML Forecast (2007–2035)</title>
+    <meta name="description"
+        content="Official Web-GIS spatial monitoring platform for Madurai District groundwater quality, BIS 10500 drinking suitability, agricultural zonation, and calibrated multi-year ML predictive modeling.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="assets/vendor/leaflet.css">
+
+    <!-- Official Executive Glassmorphism Theme -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- App Initializing Loader -->
+    <div id="app-loader"
+        style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:#0b1120; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; color:#38bdf8;">
+        <div
+            style="width:46px; height:46px; border:3px solid rgba(56, 189, 248, 0.2); border-top-color:#38bdf8; border-radius:50%; animation:spin 0.8s linear infinite;">
+        </div>
+        <h3 style="font-family:'Outfit',sans-serif; font-size:1rem; letter-spacing:0.05em;">INITIALIZING MADURAI
+            GEO-HYDRO INTELLIGENCE PLATFORM...</h3>
+        <style>
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </div>
+
+    <!-- Error Banner (if needed) -->
+    <div id="app-error"
+        style="display:none; position:fixed; top:12px; left:50%; transform:translateX(-50%); background:#dc2626; color:#fff; padding:10px 20px; border-radius:6px; z-index:10000; font-size:0.85rem;">
+    </div>
+
+    <!-- Main Application Wrapper -->
+    <div class="app-wrapper">
+        <!-- Official Government Header Bar -->
+        <header class="app-header">
+            <div class="brand-section">
+                <div class="brand-emblem" title="Madurai Groundwater Quality Monitoring Authority">
+                    <i class="fa-solid fa-water" style="position:relative; z-index:2; color:#fff;"></i>
+                </div>
+                <div class="brand-info">
+                    <h1>MADURAI GEO-HYDRO <span class="official-badge">Govt. of Tamil Nadu</span></h1>
+                    <p>TWAD Board &amp; CGWB Spatial Quality Monitoring &amp; Multi-Year ML Forecast (2007–2035)</p>
+                </div>
+            </div>
+
+            <!-- Executive KPI Ribbon (Populated Dynamically from Dataset & ML Models) -->
+            <div class="kpi-ribbon">
+                <div class="executive-kpi-card status-blue" title="Total Groundwater Observation Wells">
+                    <div class="content">
+                        <span class="lbl">Wells Monitored</span>
+                        <span class="val" id="kpi-wells-count">--</span>
+                    </div>
+                </div>
+                <div class="executive-kpi-card" title="Biannual Samples (2007-2021)">
+                    <div class="content">
+                        <span class="lbl">15-Yr Records</span>
+                        <span class="val" id="kpi-records-count">--</span>
+                    </div>
+                </div>
+                <div class="executive-kpi-card status-warning" title="District Composite GWQI">
+                    <div class="content">
+                        <span class="lbl">Mean GWQI</span>
+                        <span class="val" id="kpi-mean-gwqi">--</span>
+                    </div>
+                </div>
+                <div class="executive-kpi-card status-safe" title="Safe Drinking Water Area (BIS 10500:2012)">
+                    <div class="content">
+                        <span class="lbl">Safe Drinking Area</span>
+                        <span class="val" id="kpi-safe-area" style="font-size:0.9rem;">--</span>
+                    </div>
+                </div>
+                <div class="executive-kpi-card status-safe" title="Prime Agricultural Cropland (USSL S1-C1/C2)">
+                    <div class="content">
+                        <span class="lbl">Prime Agri Cropland</span>
+                        <span class="val" id="kpi-prime-agri" style="font-size:0.9rem;">--</span>
+                    </div>
+                </div>
+                <div class="executive-kpi-card status-danger" title="Taluk with Maximum Exceedance">
+                    <div class="content">
+                        <span class="lbl">Critical Taluk</span>
+                        <span class="val" id="kpi-worst-taluk">--</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Quick Actions -->
+            <div class="header-actions">
+                <button class="btn btn-glass" id="btn-open-guide"
+                    title="Open Comprehensive 10 GIS Topics Methodology Guide">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>Methodology Guide</span>
+                </button>
+                <button class="btn btn-primary" onclick="window.print()" title="Generate Official Briefing PDF">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span>Export Briefing</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Topic & Intelligence Switcher Navigation Strip -->
+        <nav class="topic-nav-strip" id="topic-nav-strip">
+            <!-- Populated dynamically by app.js -->
+        </nav>
+
+        <!-- Main Workspace (Balanced Map Viewport + Executive Analytical Sidebar) -->
+        <div class="main-workspace">
+            <!-- Framed Map Viewport (Reduced, Balanced for Official Workers) -->
+            <div class="map-panel-framed">
+                <!-- Map Header Toolbar with Basemap Switcher & Status -->
+                <div class="map-header-toolbar">
+                    <div class="title">
+                        <i class="fa-solid fa-earth-americas" style="color:#0284c7;"></i>
+                        <span>Madurai Hydro-Spatial Viewport</span>
+                        <span class="badge" id="map-status-badge"
+                            style="font-size:0.62rem; background:rgba(2,132,199,0.2); color:#38bdf8; padding:2px 8px; border-radius:4px; border:1px solid rgba(2,132,199,0.3);">
+                            GWQI Zonation (BIS 10500)
+                        </span>
+                    </div>
+
+                    <!-- Basemap Quick-Switch Pill Bar -->
+                    <div style="display:flex; align-items:center; gap:12px;">
+                        <div class="basemap-pill-group">
+                            <button class="basemap-pill active" data-basemap="satellite"
+                                title="Esri High-Resolution Satellite Imagery">
+                                <i class="fa-solid fa-satellite"></i> Satellite
+                            </button>
+                            <button class="basemap-pill" data-basemap="osm"
+                                title="OpenStreetMap Standard (Streets &amp; Towns)">
+                                <i class="fa-solid fa-map"></i> OSM
+                            </button>
+                            <button class="basemap-pill" data-basemap="topo"
+                                title="Esri Topographic (Terrain &amp; Elevation)">
+                                <i class="fa-solid fa-mountain"></i> Topo
+                            </button>
+                            <button class="basemap-pill" data-basemap="dark"
+                                title="Esri Dark Gray Canvas (High-Contrast Interpolation)">
+                                <i class="fa-solid fa-moon"></i> Dark
+                            </button>
+                        </div>
+
+                        <span style="font-size:0.68rem; color:#94a3b8;">
+                            EPSG:4326 | 2,229 IDW Cells
+                        </span>
+
+                        <button class="btn btn-glass" id="btn-reset-map" style="padding:3px 8px; font-size:0.68rem;"
+                            title="Reset Map View">
+                            <i class="fa-solid fa-arrows-to-eye"></i> Reset
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Leaflet Map Container -->
+                <div id="leaflet-map"></div>
+
+                <!-- Floating Layer Controls Overlay -->
+                <div class="map-floating-overlay layer-switcher-box">
+                    <div class="map-control-card">
+                        <h4>
+                            <span><i class="fa-solid fa-layer-group"></i> Layer Controls</span>
+                            <span style="font-size:0.65rem; color:#64748b;">LIVE</span>
+                        </h4>
+                        <div class="layer-item">
+                            <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+                                <input type="checkbox" id="chk-layer-surface" checked>
+                                <span>Continuous IDW Surface</span>
+                            </label>
+                        </div>
+                        <div class="layer-item">
+                            <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+                                <input type="checkbox" id="chk-layer-wells" checked>
+                                <span>225 Monitoring Wells (Points)</span>
+                            </label>
+                        </div>
+                        <div class="layer-item">
+                            <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+                                <input type="checkbox" id="chk-layer-taluks" checked>
+                                <span>7 Taluks Boundaries (Polygons)</span>
+                            </label>
+                        </div>
+
+                        <!-- Surface Opacity Slider -->
+                        <div class="opacity-slider-row">
+                            <label>
+                                <span>Surface Opacity</span>
+                                <span id="surface-opacity-val">75%</span>
+                            </label>
+                            <input type="range" id="surface-opacity-slider" min="0.1" max="1.0" step="0.05"
+                                value="0.75">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating Dynamic Map Legend Overlay -->
+                <div class="map-floating-overlay map-legend-box">
+                    <div class="map-control-card">
+                        <h4 id="map-legend-title"><i class="fa-solid fa-palette"></i> Active Legend: GWQI</h4>
+                        <div class="legend-scale-bar" id="map-legend-scale-bar"></div>
+                        <div class="legend-scale-labels" id="map-legend-scale-labels">
+                            <span>Low / Safe</span>
+                            <span>Permissible</span>
+                            <span>High Hazard</span>
+                        </div>
+                        <div class="legend-classes-list" id="map-legend-classes">
+                            <!-- Populated dynamically by app.js -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating Multi-Year Timeline & Forecast Controller Bar -->
+                <div class="map-floating-overlay time-controller-bar">
+                    <button class="time-play-btn" id="btn-timeline-play" title="Play Longitudinal Evolution">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+
+                    <div class="time-slider-wrapper">
+                        <div class="time-slider-labels">
+                            <span>2007 Baseline</span>
+                            <span class="current-year" id="current-year-label">15-Year Longitudinal Mean
+                                (2007–2021)</span>
+                            <span style="color:#c4b5fd;">2035 Vision Horizon</span>
+                        </div>
+                        <input type="range" id="time-horizon-slider" min="2007" max="2035" step="1" value="2021">
+                    </div>
+
+                    <button class="btn btn-glass" id="btn-all-years" style="padding:4px 10px; font-size:0.72rem;">
+                        All Years
+                    </button>
+
+                    <!-- Season Switcher -->
+                    <div class="season-switch-group">
+                        <button class="season-btn active" data-season="All">All</button>
+                        <button class="season-btn" data-season="Post-Monsoon"
+                            title="January Post-Monsoon Winter">Post-Monsoon</button>
+                        <button class="season-btn" data-season="Pre-Monsoon"
+                            title="July Pre-Monsoon Summer">Pre-Monsoon</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Executive Analytical Sidebar (Right Drawer) -->
+            <aside class="analytics-sidebar">
+                <div class="sidebar-header">
+                    <div class="topic-badge-row">
+                        <span class="badge" id="active-topic-badge">T2</span>
+                        <span style="font-size:0.7rem; color:#0284c7; font-weight:600;">HYDRO-SPATIAL
+                            INTELLIGENCE</span>
+                    </div>
+                    <h2 id="active-topic-title">GWQI Zonation (BIS 10500)</h2>
+                    <p class="topic-desc" id="active-topic-desc">
+                        BIS 10500:2012 Drinking Water Quality Index (GWQI) classifying aquifers from Excellent to
+                        Unsuitable.
+                    </p>
+                </div>
+
+                <!-- Filters Strip -->
+                <div class="filter-controls-strip">
+                    <div class="filter-item">
+                        <label>Water Quality Parameter</label>
+                        <select id="param-filter-select">
+                            <option value="GWQI">GWQI (Groundwater Quality Index)</option>
+                            <option value="Drinking_Suitability">Drinking Water Suitability Zonation</option>
+                            <option value="Agri_Suitability">Agricultural Cropland Suitability Zonation</option>
+                            <option value="TDS">TDS (Total Dissolved Solids)</option>
+                            <option value="F">F (Fluoride - Health Risk)</option>
+                            <option value="NO2+NO3">NO2+NO3 (Nitrate - Anthropogenic)</option>
+                            <option value="EC_GEN">EC (Electrical Conductivity)</option>
+                            <option value="HAR_Total">Total Hardness (CaCO3)</option>
+                            <option value="SAR">SAR (Sodium Adsorption Ratio)</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>Taluk Boundary Filter</label>
+                        <select id="taluk-filter-select">
+                            <option value="all">All 7 Taluks (Entire District)</option>
+                            <option value="Madurai North">Madurai North</option>
+                            <option value="Madurai South">Madurai South</option>
+                            <option value="Thirumangalam">Thirumangalam</option>
+                            <option value="Melur">Melur</option>
+                            <option value="Peraiyur">Peraiyur</option>
+                            <option value="Vadipatti">Vadipatti</option>
+                            <option value="Usilampatti">Usilampatti</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Sidebar Body Content & Cards -->
+                <div class="sidebar-content">
+                    <!-- ML Multi-Year Predictive Forecast & Vision 2030 Card -->
+                    <div class="ml-forecast-card">
+                        <div class="ml-forecast-header">
+                            <h4>
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Multi-Year ML Forecast:</span>
+                                <strong id="forecast-panel-year" style="color:#fff;">Horizon 2030</strong>
+                            </h4>
+                            <span
+                                style="font-size:0.65rem; padding:2px 8px; border-radius:4px; background:rgba(124, 58, 237, 0.25); border:1px solid #7c3aed; color:#c4b5fd;">
+                                Calibrated Model
+                            </span>
+                        </div>
+
+                        <!-- Horizon Select Pills -->
+                        <div class="horizon-pill-strip">
+                            <button class="horizon-pill" data-year="2024">2024 Near-Term</button>
+                            <button class="horizon-pill" data-year="2026">2026 Short-Term</button>
+                            <button class="horizon-pill" data-year="2028">2028 Mid-Term</button>
+                            <button class="horizon-pill active" data-year="2030">2030 Vision</button>
+                            <button class="horizon-pill" data-year="2035">2035 Strategic</button>
+                        </div>
+
+                        <!-- District Metric Tiles -->
+                        <div class="ml-grid-tiles">
+                            <div class="ml-tile">
+                                <div class="k">Expected Mean GWQI</div>
+                                <div class="v" id="forecast-val-gwqi" style="color:#c4b5fd;">--</div>
+                                <div class="sub">Random Forest Ensemble</div>
+                            </div>
+                            <div class="ml-tile">
+                                <div class="k">Expected Mean TDS</div>
+                                <div class="v" id="forecast-val-tds">--</div>
+                                <div class="sub">BIS Desirable: 500 mg/L</div>
+                            </div>
+                            <div class="ml-tile">
+                                <div class="k">Expected Mean Fluoride</div>
+                                <div class="v" id="forecast-val-f">--</div>
+                                <div class="sub">Permissible Limit: 1.5 mg/L</div>
+                            </div>
+                            <div class="ml-tile">
+                                <div class="k">Expected Mean Nitrate</div>
+                                <div class="v" id="forecast-val-no3">--</div>
+                                <div class="sub">WHO Threshold: 45 mg/L</div>
+                            </div>
+                        </div>
+
+                        <!-- Drinking Water Suitability Zonation Breakdown -->
+                        <div style="margin-top:6px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08);">
+                            <div
+                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#38bdf8;">
+                                <span><i class="fa-solid fa-faucet-drip"></i> Drinking Water Suitability Zonation</span>
+                                <span style="font-size:0.65rem; color:#94a3b8;">BIS 10500:2012</span>
+                            </div>
+                            <div class="suitability-grid">
+                                <div class="suitability-tier-card tier-safe">
+                                    <div class="tier-title">Safe Drinking</div>
+                                    <div class="tier-pct" id="forecast-drink-safe-pct">--</div>
+                                    <div class="tier-area" id="forecast-drink-safe-km">--</div>
+                                </div>
+                                <div class="suitability-tier-card tier-marginal">
+                                    <div class="tier-title">Marginal</div>
+                                    <div class="tier-pct" id="forecast-drink-marg-pct">--</div>
+                                    <div class="tier-area" id="forecast-drink-marg-km">--</div>
+                                </div>
+                                <div class="suitability-tier-card tier-unsuitable">
+                                    <div class="tier-title">Unsuitable</div>
+                                    <div class="tier-pct" id="forecast-drink-uns-pct">--</div>
+                                    <div class="tier-area" id="forecast-drink-uns-km">--</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Agricultural Suitability Zonation Breakdown -->
+                        <div style="margin-top:6px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08);">
+                            <div
+                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#34d399;">
+                                <span><i class="fa-solid fa-wheat-awn"></i> Agricultural &amp; Irrigation
+                                    Suitability</span>
+                                <span style="font-size:0.65rem; color:#94a3b8;">USSL &amp; FAO 29</span>
+                            </div>
+                            <div class="suitability-grid">
+                                <div class="suitability-tier-card" style="border-left:3px solid #059669;">
+                                    <div class="tier-title" style="color:#34d399;">Prime Cropland</div>
+                                    <div class="tier-pct" id="forecast-agri-prime-pct">--</div>
+                                    <div class="tier-area" id="forecast-agri-prime-km">--</div>
+                                </div>
+                                <div class="suitability-tier-card" style="border-left:3px solid #d97706;">
+                                    <div class="tier-title" style="color:#fbbf24;">Moderate / Salt</div>
+                                    <div class="tier-pct" id="forecast-agri-mod-pct">--</div>
+                                    <div class="tier-area" id="forecast-agri-mod-km">--</div>
+                                </div>
+                                <div class="suitability-tier-card" style="border-left:3px solid #dc2626;">
+                                    <div class="tier-title" style="color:#f87171;">Sodicity Hazard</div>
+                                    <div class="tier-pct" id="forecast-agri-uns-pct">--</div>
+                                    <div class="tier-area" id="forecast-agri-uns-km">--</div>
+                                </div>
+                            </div>
+                            <div class="crop-tags-row">
+                                <span class="crop-tag"><i class="fa-solid fa-leaf"></i> Paddy</span>
+                                <span class="crop-tag"><i class="fa-solid fa-seedling"></i> Sugarcane</span>
+                                <span class="crop-tag"><i class="fa-solid fa-pepper-hot"></i> Vegetables</span>
+                                <span class="crop-tag moderate"><i class="fa-solid fa-wheat-awn"></i> Cotton</span>
+                                <span class="crop-tag moderate"><i class="fa-solid fa-bowl-rice"></i> Millets</span>
+                                <span class="crop-tag unsuitable"><i class="fa-solid fa-triangle-exclamation"></i>
+                                    Gypsum Required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Chart Card -->
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <div style="display:flex; gap:6px;">
+                                <button class="btn btn-primary chart-tab-btn" data-tab="trend"
+                                    style="padding:3px 8px; font-size:0.68rem;">
+                                    Longitudinal Trend
+                                </button>
+                                <button class="btn btn-glass chart-tab-btn" data-tab="distribution"
+                                    style="padding:3px 8px; font-size:0.68rem;">
+                                    Distribution
+                                </button>
+                                <button class="btn btn-glass chart-tab-btn" data-tab="taluk"
+                                    style="padding:3px 8px; font-size:0.68rem;">
+                                    Taluk Ranks
+                                </button>
+                                <button class="btn btn-glass chart-tab-btn" data-tab="irrigation"
+                                    style="padding:3px 8px; font-size:0.68rem;">
+                                    USSL Matrix
+                                </button>
+                            </div>
+                            <span class="unit">Interactive Chart</span>
+                        </div>
+
+                        <div class="chart-canvas-wrapper">
+                            <canvas id="chart-trend" style="display:block;"></canvas>
+                            <canvas id="chart-distribution" style="display:none;"></canvas>
+                            <canvas id="chart-taluk" style="display:none;"></canvas>
+                            <canvas id="chart-irrigation" style="display:none;"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Taluk Vulnerability Ranking Table -->
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3>Taluk Vulnerability Ranking (Topic 7)</h3>
+                            <span class="unit">Priority Order</span>
+                        </div>
+                        <table class="leaderboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Taluk Name</th>
+                                    <th>Mean GWQI</th>
+                                    <th>% F Exceed</th>
+                                    <th>% NO3 Exceed</th>
+                                </tr>
+                            </thead>
+                            <tbody id="taluk-leaderboard-tbody">
+                                <!-- Populated dynamically by app.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Well Inspection Modal -->
+    <div class="modal-overlay" id="modal-well">
+        <div class="modal-box">
+            <div class="modal-header">
+                <div>
+                    <h2 id="modal-well-title">Monitoring Well: 21001D</h2>
+                    <p id="modal-well-meta" style="font-size:0.75rem; color:#94a3b8;">
+                        Village: Thiruparankundram | Taluk: Madurai South
+                    </p>
+                </div>
+                <button class="modal-close-btn" id="btn-close-well">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Profile Cards Grid -->
+                <div class="well-profile-grid">
+                    <div class="profile-card">
+                        <div class="k">Overall Status</div>
+                        <div class="v" id="modal-well-status">Permissible / Marginal</div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="k">Composite GWQI</div>
+                        <div class="v" id="modal-well-gwqi">149.8 (Poor)</div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="k">Fluoride Concentration</div>
+                        <div class="v" id="modal-well-f">0.76 mg/L</div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="k">Nitrate Concentration</div>
+                        <div class="v" id="modal-well-no3">2.0 mg/L</div>
+                    </div>
+                </div>
+
+                <!-- Official Compliance & Aquifer Classification Bar -->
+                <div class="aquifer-verdict-card" id="modal-aquifer-verdict">
+                    <div class="verdict-icon-box" id="modal-verdict-icon">
+                        <i class="fa-solid fa-shield-check"></i>
+                    </div>
+                    <div class="verdict-content">
+                        <div class="verdict-header">
+                            <span class="verdict-tag" id="modal-verdict-tag">POTABLE / SAFE DRINKING</span>
+                            <span class="verdict-standards">BIS 10500:2012 &amp; CGWB Assessment</span>
+                        </div>
+                        <p class="verdict-summary" id="modal-verdict-summary">Aquifer meets all mandatory drinking water
+                            parameters within acceptable threshold limits.</p>
+                    </div>
+                </div>
+
+                <!-- Modal Charts Split -->
+                <div class="modal-charts-split">
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3>Hydrochemical Fingerprint Radar</h3>
+                            <span class="unit">vs BIS 10500</span>
+                        </div>
+                        <div style="height:210px;">
+                            <canvas id="chart-well-radar"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3>15-Year Longitudinal Trend</h3>
+                            <span class="unit">GWQI &amp; F</span>
+                        </div>
+                        <div style="height:210px;">
+                            <canvas id="chart-well-trend"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIS 10500 Compliance Table -->
+                <div class="chart-card">
+                    <div class="chart-card-header">
+                        <h3>BIS 10500:2012 Drinking Water Quality Compliance</h3>
+                        <span class="unit">Indian Standards</span>
+                    </div>
+                    <table class="modal-compliance-table">
+                        <thead>
+                            <tr>
+                                <th>Chemical Parameter</th>
+                                <th>Well Mean</th>
+                                <th>Desirable Limit</th>
+                                <th>Permissible Limit</th>
+                                <th>Compliance Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fluoride (F)</td>
+                                <td id="modal-tbl-f-val">0.76 mg/L</td>
+                                <td>1.0 mg/L</td>
+                                <td>1.5 mg/L</td>
+                                <td id="modal-tbl-f-badge"><span class="badge-safe">Safe</span></td>
+                            </tr>
+                            <tr>
+                                <td>Nitrate (NO2+NO3)</td>
+                                <td id="modal-tbl-no3-val">2.0 mg/L</td>
+                                <td>45.0 mg/L</td>
+                                <td>45.0 mg/L</td>
+                                <td id="modal-tbl-no3-badge"><span class="badge-safe">Safe</span></td>
+                            </tr>
+                            <tr>
+                                <td>TDS (Total Dissolved Solids)</td>
+                                <td id="modal-tbl-tds-val">1246.0 mg/L</td>
+                                <td>500 mg/L</td>
+                                <td>2000 mg/L</td>
+                                <td id="modal-tbl-tds-badge"><span class="badge-marginal">Permissible</span></td>
+                            </tr>
+                            <tr>
+                                <td>Total Hardness (CaCO3)</td>
+                                <td id="modal-tbl-har-val">300 mg/L</td>
+                                <td>200 mg/L</td>
+                                <td>600 mg/L</td>
+                                <td id="modal-tbl-har-badge"><span class="badge-marginal">Acceptable</span></td>
+                            </tr>
+                            <tr>
+                                <td>Irrigation Suitability</td>
+                                <td id="modal-tbl-irr-val">SAR: 9.2</td>
+                                <td>SAR &lt; 10</td>
+                                <td>SAR &lt; 26</td>
+                                <td id="modal-tbl-irr-badge"><span class="badge-safe">Good</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10 Topics Methodology Guide Modal -->
+    <div class="modal-overlay" id="modal-guide">
+        <div class="modal-box" style="max-width:900px;">
+            <div class="modal-header">
+                <div>
+                    <h2>10 GIS Project Topics — Comprehensive Methodology Guide</h2>
+                    <p style="font-size:0.75rem; color:#94a3b8;">
+                        Madurai District Groundwater Quality Dataset (2007–2021) | Standards: BIS 10500:2012, USSL &amp;
+                        FAO 29
+                    </p>
+                </div>
+                <button class="modal-close-btn" id="btn-close-guide">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body" style="font-size:0.8rem; line-height:1.6; gap:12px;">
+                <div
+                    style="background:rgba(2,132,199,0.12); border:1px solid #0284c7; border-radius:8px; padding:12px;">
+                    <h4 style="color:#38bdf8; margin-bottom:4px;">
+                        <i class="fa-solid fa-circle-info"></i> Real Web Map Integration Architecture
+                    </h4>
+                    <p style="color:#cbd5e1;">
+                        The web app directly integrates real live GIS basemaps (<strong>Esri Satellite Imagery</strong>,
+                        <strong>OpenStreetMap</strong>, and <strong>Esri Topographic</strong>) projected in
+                        <strong>WGS84 (EPSG:4326)</strong>. All 2,229 IDW interpolation cells and 225 monitoring wells
+                        are rendered natively in your browser with zero external plugins or licenses required.
+                    </p>
+                </div>
+
+                <div
+                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
+                    <h4 style="color:#34d399; margin-bottom:4px;">
+                        <i class="fa-solid fa-faucet-drip"></i> Topic 12: Drinking Water Suitability Standards
+                    </h4>
+                    <p style="color:#cbd5e1;">
+                        Calculated per BIS 10500:2012. <strong>Safe Drinking Area</strong>: GWQI &lt; 100, F &le; 1.0
+                        mg/L, NO3 &le; 45 mg/L, TDS &le; 1000 mg/L. <strong>Marginal Area</strong>: GWQI 100–150, F &le;
+                        1.5 mg/L, TDS &le; 2000 mg/L (usable with standard treatment). <strong>Unsuitable Area</strong>:
+                        Critical fluoride or salinity hazard requiring RO or surface water substitution.
+                    </p>
+                </div>
+
+                <div
+                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
+                    <h4 style="color:#fbbf24; margin-bottom:4px;">
+                        <i class="fa-solid fa-wheat-awn"></i> Topic 13: Agricultural &amp; Irrigation Cropland Standards
+                    </h4>
+                    <p style="color:#cbd5e1;">
+                        Calculated per US Salinity Laboratory (USSL) and FAO 29. <strong>Prime Cropland</strong>: SAR
+                        &lt; 10, EC &lt; 1,500 &mu;S/cm, RSC &lt; 1.25 meq/L (ideal for paddy, sugarcane, banana,
+                        vegetables). <strong>Moderate / Salt-Tolerant</strong>: SAR 10–18, EC 1,500–3,000 &mu;S/cm
+                        (ideal for cotton, millets, pulses). <strong>Sodicity Hazard</strong>: High SAR causing soil
+                        infiltration breakdown.
+                    </p>
+                </div>
+
+                <div
+                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
+                    <h4 style="color:#c4b5fd; margin-bottom:4px;">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Topic 11: Multi-Year ML Predictive Modeling
+                    </h4>
+                    <p style="color:#cbd5e1;">
+                        Calibrated Theil-Sen multi-variate trend regression with aquifer inertia constraints (maximum
+                        &plusmn;3.5% annual drift based on hydrogeological recharge dynamics). Evaluates post-2026,
+                        2028, 2030, and 2035 horizons to enable proactive infrastructure planning for TWAD Board and PWD
+                        Water Resources Department.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vendor Libraries (Offline & Local) -->
+    <script src="assets/vendor/leaflet.js"></script>
+    <script src="assets/vendor/chart.umd.js"></script>
+    <script src="assets/vendor/turf.min.js"></script>
+
+    <!-- Application Engines -->
+    <script src="js/map_layers.js"></script>
+    <script src="js/charts.js"></script>
+
+    <!-- Main Native Application Controller (Zero Babel, Instant Guaranteed Load) -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
