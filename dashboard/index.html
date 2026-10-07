@@ -28,9 +28,9 @@
 <body>
     <!-- App Initializing Loader -->
     <div id="app-loader"
-        style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:#0b1120; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; color:#38bdf8;">
+        style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:#f8fafc; z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; color:#0284c7;">
         <div
-            style="width:46px; height:46px; border:3px solid rgba(56, 189, 248, 0.2); border-top-color:#38bdf8; border-radius:50%; animation:spin 0.8s linear infinite;">
+            style="width:46px; height:46px; border:3px solid rgba(52, 211, 153, 0.2); border-top-color:#0284c7; border-radius:50%; animation:spin 0.8s linear infinite;">
         </div>
         <h3 style="font-family:'Outfit',sans-serif; font-size:1rem; letter-spacing:0.05em;">INITIALIZING MADURAI
             GEO-HYDRO INTELLIGENCE PLATFORM...</h3>
@@ -126,16 +126,16 @@
         </nav>
 
         <!-- Main Workspace (Balanced Map Viewport + Executive Analytical Sidebar) -->
-        <div class="main-workspace">
+        <div class="main-workspace" id="main-workspace-view">
             <!-- Framed Map Viewport (Reduced, Balanced for Official Workers) -->
             <div class="map-panel-framed">
                 <!-- Map Header Toolbar with Basemap Switcher & Status -->
                 <div class="map-header-toolbar">
                     <div class="title">
-                        <i class="fa-solid fa-earth-americas" style="color:#0284c7;"></i>
+                        <i class="fa-solid fa-earth-americas" style="color:#059669;"></i>
                         <span>Madurai Hydro-Spatial Viewport</span>
                         <span class="badge" id="map-status-badge"
-                            style="font-size:0.62rem; background:rgba(2,132,199,0.2); color:#38bdf8; padding:2px 8px; border-radius:4px; border:1px solid rgba(2,132,199,0.3);">
+                            style="font-size:0.62rem; background:rgba(5,150,105,0.2); color:#0284c7; padding:2px 8px; border-radius:4px; border:1px solid rgba(5,150,105,0.3);">
                             GWQI Zonation (BIS 10500)
                         </span>
                     </div>
@@ -161,7 +161,7 @@
                             </button>
                         </div>
 
-                        <span style="font-size:0.68rem; color:#94a3b8;">
+                        <span style="font-size:0.68rem; color:#64748b;">
                             EPSG:4326 | 2,229 IDW Cells
                         </span>
 
@@ -240,7 +240,7 @@
                             <span>2007 Baseline</span>
                             <span class="current-year" id="current-year-label">15-Year Longitudinal Mean
                                 (2007–2021)</span>
-                            <span style="color:#c4b5fd;">2035 Vision Horizon</span>
+                            <span style="color:#7c3aed;">2035 Vision Horizon</span>
                         </div>
                         <input type="range" id="time-horizon-slider" min="2007" max="2035" step="1" value="2021">
                     </div>
@@ -265,7 +265,7 @@
                 <div class="sidebar-header">
                     <div class="topic-badge-row">
                         <span class="badge" id="active-topic-badge">T2</span>
-                        <span style="font-size:0.7rem; color:#0284c7; font-weight:600;">HYDRO-SPATIAL
+                        <span style="font-size:0.7rem; color:#059669; font-weight:600;">HYDRO-SPATIAL
                             INTELLIGENCE</span>
                     </div>
                     <h2 id="active-topic-title">GWQI Zonation (BIS 10500)</h2>
@@ -317,7 +317,7 @@
                                 <strong id="forecast-panel-year" style="color:#fff;">Horizon 2030</strong>
                             </h4>
                             <span
-                                style="font-size:0.65rem; padding:2px 8px; border-radius:4px; background:rgba(124, 58, 237, 0.25); border:1px solid #7c3aed; color:#c4b5fd;">
+                                style="font-size:0.65rem; padding:2px 8px; border-radius:4px; background:rgba(124, 58, 237, 0.25); border:1px solid #7c3aed; color:#7c3aed;">
                                 Calibrated Model
                             </span>
                         </div>
@@ -335,7 +335,7 @@
                         <div class="ml-grid-tiles">
                             <div class="ml-tile">
                                 <div class="k">Expected Mean GWQI</div>
-                                <div class="v" id="forecast-val-gwqi" style="color:#c4b5fd;">--</div>
+                                <div class="v" id="forecast-val-gwqi" style="color:#7c3aed;">--</div>
                                 <div class="sub">Random Forest Ensemble</div>
                             </div>
                             <div class="ml-tile">
@@ -358,9 +358,9 @@
                         <!-- Drinking Water Suitability Zonation Breakdown -->
                         <div style="margin-top:6px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08);">
                             <div
-                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#38bdf8;">
+                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#0284c7;">
                                 <span><i class="fa-solid fa-faucet-drip"></i> Drinking Water Suitability Zonation</span>
-                                <span style="font-size:0.65rem; color:#94a3b8;">BIS 10500:2012</span>
+                                <span style="font-size:0.65rem; color:#64748b;">BIS 10500:2012</span>
                             </div>
                             <div class="suitability-grid">
                                 <div class="suitability-tier-card tier-safe">
@@ -384,14 +384,14 @@
                         <!-- Agricultural Suitability Zonation Breakdown -->
                         <div style="margin-top:6px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08);">
                             <div
-                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#34d399;">
+                                style="display:flex; justify-content:space-between; font-size:0.72rem; font-weight:600; color:#0284c7;">
                                 <span><i class="fa-solid fa-wheat-awn"></i> Agricultural &amp; Irrigation
                                     Suitability</span>
-                                <span style="font-size:0.65rem; color:#94a3b8;">USSL &amp; FAO 29</span>
+                                <span style="font-size:0.65rem; color:#64748b;">USSL &amp; FAO 29</span>
                             </div>
                             <div class="suitability-grid">
                                 <div class="suitability-tier-card" style="border-left:3px solid #059669;">
-                                    <div class="tier-title" style="color:#34d399;">Prime Cropland</div>
+                                    <div class="tier-title" style="color:#0284c7;">Prime Cropland</div>
                                     <div class="tier-pct" id="forecast-agri-prime-pct">--</div>
                                     <div class="tier-area" id="forecast-agri-prime-km">--</div>
                                 </div>
@@ -474,7 +474,13 @@
                 </div>
             </aside>
         </div>
+
+        <!-- Contamination Zone Analysis & Environmental Risk Intelligence View -->
+        <div id="contamination-report-view" class="report-view-container" style="display:none;">
+            <!-- Populated dynamically by app.js data science engine -->
+        </div>
     </div>
+
 
     <!-- Well Inspection Modal -->
     <div class="modal-overlay" id="modal-well">
@@ -482,7 +488,7 @@
             <div class="modal-header">
                 <div>
                     <h2 id="modal-well-title">Monitoring Well: 21001D</h2>
-                    <p id="modal-well-meta" style="font-size:0.75rem; color:#94a3b8;">
+                    <p id="modal-well-meta" style="font-size:0.75rem; color:#64748b;">
                         Village: Thiruparankundram | Taluk: Madurai South
                     </p>
                 </div>
@@ -615,7 +621,7 @@
             <div class="modal-header">
                 <div>
                     <h2>10 GIS Project Topics — Comprehensive Methodology Guide</h2>
-                    <p style="font-size:0.75rem; color:#94a3b8;">
+                    <p style="font-size:0.75rem; color:#64748b;">
                         Madurai District Groundwater Quality Dataset (2007–2021) | Standards: BIS 10500:2012, USSL &amp;
                         FAO 29
                     </p>
@@ -626,11 +632,11 @@
             </div>
             <div class="modal-body" style="font-size:0.8rem; line-height:1.6; gap:12px;">
                 <div
-                    style="background:rgba(2,132,199,0.12); border:1px solid #0284c7; border-radius:8px; padding:12px;">
-                    <h4 style="color:#38bdf8; margin-bottom:4px;">
+                    style="background:rgba(5,150,105,0.12); border:1px solid #0284c7; border-radius:8px; padding:12px;">
+                    <h4 style="color:#0284c7; margin-bottom:4px;">
                         <i class="fa-solid fa-circle-info"></i> Real Web Map Integration Architecture
                     </h4>
-                    <p style="color:#cbd5e1;">
+                    <p style="color:#334155;">
                         The web app directly integrates real live GIS basemaps (<strong>Esri Satellite Imagery</strong>,
                         <strong>OpenStreetMap</strong>, and <strong>Esri Topographic</strong>) projected in
                         <strong>WGS84 (EPSG:4326)</strong>. All 2,229 IDW interpolation cells and 225 monitoring wells
@@ -639,11 +645,11 @@
                 </div>
 
                 <div
-                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
-                    <h4 style="color:#34d399; margin-bottom:4px;">
+                    style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
+                    <h4 style="color:#0284c7; margin-bottom:4px;">
                         <i class="fa-solid fa-faucet-drip"></i> Topic 12: Drinking Water Suitability Standards
                     </h4>
-                    <p style="color:#cbd5e1;">
+                    <p style="color:#334155;">
                         Calculated per BIS 10500:2012. <strong>Safe Drinking Area</strong>: GWQI &lt; 100, F &le; 1.0
                         mg/L, NO3 &le; 45 mg/L, TDS &le; 1000 mg/L. <strong>Marginal Area</strong>: GWQI 100–150, F &le;
                         1.5 mg/L, TDS &le; 2000 mg/L (usable with standard treatment). <strong>Unsuitable Area</strong>:
@@ -652,11 +658,11 @@
                 </div>
 
                 <div
-                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
+                    style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
                     <h4 style="color:#fbbf24; margin-bottom:4px;">
                         <i class="fa-solid fa-wheat-awn"></i> Topic 13: Agricultural &amp; Irrigation Cropland Standards
                     </h4>
-                    <p style="color:#cbd5e1;">
+                    <p style="color:#334155;">
                         Calculated per US Salinity Laboratory (USSL) and FAO 29. <strong>Prime Cropland</strong>: SAR
                         &lt; 10, EC &lt; 1,500 &mu;S/cm, RSC &lt; 1.25 meq/L (ideal for paddy, sugarcane, banana,
                         vegetables). <strong>Moderate / Salt-Tolerant</strong>: SAR 10–18, EC 1,500–3,000 &mu;S/cm
@@ -666,11 +672,11 @@
                 </div>
 
                 <div
-                    style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:12px;">
-                    <h4 style="color:#c4b5fd; margin-bottom:4px;">
+                    style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px;">
+                    <h4 style="color:#7c3aed; margin-bottom:4px;">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> Topic 11: Multi-Year ML Predictive Modeling
                     </h4>
-                    <p style="color:#cbd5e1;">
+                    <p style="color:#334155;">
                         Calibrated Theil-Sen multi-variate trend regression with aquifer inertia constraints (maximum
                         &plusmn;3.5% annual drift based on hydrogeological recharge dynamics). Evaluates post-2026,
                         2028, 2030, and 2035 horizons to enable proactive infrastructure planning for TWAD Board and PWD
@@ -680,6 +686,27 @@
             </div>
         </div>
     </div>
+
+    <!-- Location Contamination Inspector Modal -->
+    <div class="modal-overlay" id="modal-location-inspector">
+        <div class="modal-box" style="max-width:850px;">
+            <div class="modal-header">
+                <div>
+                    <h2 id="inspector-loc-name">Location: --</h2>
+                    <p id="inspector-loc-meta" style="font-size:0.75rem; color:#64748b;">
+                        Taluk: -- | Well ID: -- | Coordinates: --
+                    </p>
+                </div>
+                <button class="modal-close-btn" id="btn-close-inspector">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="inspector-modal-body">
+                <!-- Populated dynamically by app.js -->
+            </div>
+        </div>
+    </div>
+
 
     <!-- Vendor Libraries (Offline & Local) -->
     <script src="assets/vendor/leaflet.js"></script>
